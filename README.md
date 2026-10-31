@@ -122,6 +122,13 @@ Companion AI assistant from the LevelUp Store monorepo - answers questions about
 <tbody>
 
 <tr>
+<td width="110"><b>GitHub Stats Generator</b></td>
+<td><img src="https://img.shields.io/badge/Python-1a1a2e?logo=python&logoColor=3572A5&style=flat-square"></td>
+<td>GitHub Action that generates SVG stats and metrics cards for your profile README. Supports dark/light themes with full color customization.</td>
+<td width="140"><a href="https://github.com/developer-samuel/github-stats-generator"><img src="https://img.shields.io/badge/GitHub-30363D?style=flat-square&logo=github&logoColor=01FF5E"></a>&nbsp;&nbsp;<a href="https://github.com/marketplace/actions/github-stats-generator"><img src="https://img.shields.io/badge/Marketplace-2088FF?style=flat-square&logo=githubactions&logoColor=white"></a></td>
+</tr>
+
+<tr>
 <td width="110"><b>Ares Client</b></td>
 <td><img src="https://img.shields.io/badge/PHP-1a1a2e?logo=php&logoColor=777BB4&style=flat-square"></td>
 <td>PHP client for the Czech ARES API (Administrative Register of Economic Subjects). Simple interface + CLI tool for Business ID lookups.</td>
