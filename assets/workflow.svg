@@ -1,0 +1,497 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 915" width="100%">
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+
+      @keyframes blink-out {
+        0%   { opacity: 1; }
+        25%  { opacity: 0; }
+        50%  { opacity: 1; }
+        75%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%      { opacity: 0; }
+      }
+      @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+
+      @keyframes tw1  { to { width: 170px; } }
+      @keyframes tw3  { to { width: 250px; } }
+      @keyframes tw3b { to { width:  70px; } }
+      @keyframes tw3c { to { width: 257px; } }
+      @keyframes tw4  { to { width: 250px; } }
+      @keyframes tw4b { to { width: 398px; } }
+      @keyframes twm1 { to { width: 170px; } }
+      @keyframes tw5  { to { width: 367px; } }
+      @keyframes tw5b { to { width: 312px; } }
+      @keyframes twm2 { to { width: 170px; } }
+      @keyframes tw6  { to { width: 320px; } }
+      @keyframes tw7  { to { width: 210px; } }
+
+      @keyframes prog { to { width: 74px; } }
+
+      .tw1  { width: 0; animation: tw1  0.63s steps(21, end) forwards; animation-delay:  0.5s; }
+      .tw3  { width: 0; animation: tw3  0.96s steps(32, end) forwards; animation-delay:  2.5s; }
+      .tw3b { width: 0; animation: tw3b 0.27s steps( 9, end) forwards; animation-delay:  3.6s; }
+      .tw3c { width: 0; animation: tw3c 0.99s steps(33, end) forwards; animation-delay:  4.0s; }
+      .tw4  { width: 0; animation: tw4  0.96s steps(32, end) forwards; animation-delay:  5.1s; }
+      .tw4b { width: 0; animation: tw4b 1.53s steps(51, end) forwards; animation-delay:  6.8s; }
+      .twm1 { width: 0; animation: twm1 0.60s steps(20, end) forwards; animation-delay:  8.95s; }
+      .tw5  { width: 0; animation: tw5  1.41s steps(47, end) forwards; animation-delay: 12.05s; }
+      .tw5b { width: 0; animation: tw5b 1.17s steps(39, end) forwards; animation-delay: 14.05s; }
+      .twm2 { width: 0; animation: twm2 0.60s steps(20, end) forwards; animation-delay: 15.85s; }
+      .tw6  { width: 0; animation: tw6  1.23s steps(41, end) forwards; animation-delay: 19.25s; }
+      .tw7  { width: 0; animation: tw7  0.78s steps(26, end) forwards; animation-delay: 21.05s; }
+
+      .prog-stg  { width: 0; animation: prog 1.0s steps(5, end) forwards; animation-delay: 10.15s; }
+      .prog-prod { width: 0; animation: prog 1.0s steps(5, end) forwards; animation-delay: 17.05s; }
+
+      .cursor-1   { opacity: 0; }
+      .cursor-end {
+        animation: fadein 0.1s ease forwards, blink 1.1s step-end infinite;
+        animation-delay: 22.15s, 22.15s;
+        opacity: 0;
+      }
+
+      .prompt-3     { animation: fadein 0.1s ease forwards; animation-delay:  2.5s;  opacity: 0; }
+      .prompt-3b    { animation: fadein 0.1s ease forwards; animation-delay:  3.6s;  opacity: 0; }
+      .prompt-3c    { animation: fadein 0.1s ease forwards; animation-delay:  4.0s;  opacity: 0; }
+      .prompt-4     { animation: fadein 0.1s ease forwards; animation-delay:  5.1s;  opacity: 0; }
+      .prompt-4b    { animation: fadein 0.1s ease forwards; animation-delay:  6.8s;  opacity: 0; }
+      .prompt-m1    { animation: fadein 0.1s ease forwards; animation-delay:  8.95s; opacity: 0; }
+      .prompt-5     { animation: fadein 0.1s ease forwards; animation-delay: 12.05s; opacity: 0; }
+      .prompt-5b    { animation: fadein 0.1s ease forwards; animation-delay: 14.05s; opacity: 0; }
+      .prompt-m2    { animation: fadein 0.1s ease forwards; animation-delay: 15.85s; opacity: 0; }
+      .prompt-6     { animation: fadein 0.1s ease forwards; animation-delay: 19.25s; opacity: 0; }
+      .prompt-7     { animation: fadein 0.1s ease forwards; animation-delay: 21.05s; opacity: 0; }
+
+      .pp-1         { animation: fadein 0.1s ease forwards; animation-delay:  6.2s;  opacity: 0; }
+      .pp-2         { animation: fadein 0.1s ease forwards; animation-delay:  6.35s; opacity: 0; }
+      .pp-3         { animation: fadein 0.1s ease forwards; animation-delay:  6.5s;  opacity: 0; }
+      .pp-ok        { animation: fadein 0.1s ease forwards; animation-delay:  6.65s; opacity: 0; }
+
+      .ci-pr        { animation: fadein 0.1s ease forwards; animation-delay:  8.5s;  opacity: 0; }
+      .ai-1         { animation: fadein 0.1s ease forwards; animation-delay:  8.65s; opacity: 0; }
+      .ai-ok        { animation: fadein 0.2s ease forwards; animation-delay:  8.8s;  opacity: 0; }
+
+      .stg-1        { animation: fadein 0.1s ease forwards; animation-delay:  9.7s;  opacity: 0; }
+      .stg-2        { animation: fadein 0.1s ease forwards; animation-delay:  9.85s; opacity: 0; }
+      .stg-3        { animation: fadein 0.1s ease forwards; animation-delay: 10.0s;  opacity: 0; }
+
+      .stg-bar-fr   { animation: fadein 0.1s ease forwards; animation-delay: 10.15s; opacity: 0; }
+      .stg-bar-done { animation: fadein 0.1s ease forwards; animation-delay: 11.15s; opacity: 0; }
+
+      .stg-argocd   { animation: fadein 0.1s ease forwards; animation-delay: 11.3s;  opacity: 0; }
+      .stg-kubectl  { animation: fadein 0.1s ease forwards; animation-delay: 11.45s; opacity: 0; }
+      .stg-kctl-ok  { animation: fadein 0.1s ease forwards; animation-delay: 11.6s;  opacity: 0; }
+      .stg-pods     { animation: fadein 0.1s ease forwards; animation-delay: 11.75s; opacity: 0; }
+      .stg-pod-1    { animation: fadein 0.1s ease forwards; animation-delay: 11.9s;  opacity: 0; }
+
+      .pull-stg-1   { animation: fadein 0.1s ease forwards; animation-delay: 13.6s;  opacity: 0; }
+      .pull-stg-2   { animation: fadein 0.1s ease forwards; animation-delay: 13.75s; opacity: 0; }
+      .pull-stg-3   { animation: fadein 0.1s ease forwards; animation-delay: 13.9s;  opacity: 0; }
+
+      .stg-pr-1     { animation: fadein 0.1s ease forwards; animation-delay: 15.4s;  opacity: 0; }
+      .stg-ai-1     { animation: fadein 0.1s ease forwards; animation-delay: 15.55s; opacity: 0; }
+      .stg-pr-ok    { animation: fadein 0.2s ease forwards; animation-delay: 15.7s;  opacity: 0; }
+
+      .ci-1         { animation: fadein 0.1s ease forwards; animation-delay: 16.6s;  opacity: 0; }
+      .ci-2         { animation: fadein 0.1s ease forwards; animation-delay: 16.75s; opacity: 0; }
+      .ci-3         { animation: fadein 0.1s ease forwards; animation-delay: 16.9s;  opacity: 0; }
+
+      .prod-bar-fr  { animation: fadein 0.1s ease forwards; animation-delay: 17.05s; opacity: 0; }
+      .prod-bar-done{ animation: fadein 0.1s ease forwards; animation-delay: 18.05s; opacity: 0; }
+
+      .prod-argocd  { animation: fadein 0.1s ease forwards; animation-delay: 18.2s;  opacity: 0; }
+      .prod-kubectl { animation: fadein 0.1s ease forwards; animation-delay: 18.35s; opacity: 0; }
+      .prod-kctl-ok { animation: fadein 0.1s ease forwards; animation-delay: 18.5s;  opacity: 0; }
+      .prod-pods    { animation: fadein 0.1s ease forwards; animation-delay: 18.65s; opacity: 0; }
+      .prod-pod-1   { animation: fadein 0.1s ease forwards; animation-delay: 18.8s;  opacity: 0; }
+
+      .prod-lh-1    { animation: fadein 0.1s ease forwards; animation-delay: 18.95s; opacity: 0; }
+      .prod-lh-ok   { animation: fadein 0.2s ease forwards; animation-delay: 19.1s;  opacity: 0; }
+
+      .pull-main-1  { animation: fadein 0.1s ease forwards; animation-delay: 20.6s;  opacity: 0; }
+      .pull-main-2  { animation: fadein 0.1s ease forwards; animation-delay: 20.75s; opacity: 0; }
+      .pull-main-3  { animation: fadein 0.1s ease forwards; animation-delay: 20.9s;  opacity: 0; }
+
+      .http-ok      { animation: fadein 0.2s ease forwards; animation-delay: 22.0s;  opacity: 0; }
+      .final        { animation: fadein 0.2s ease forwards; animation-delay: 22.15s; opacity: 0; }
+    </style>
+
+    <clipPath id="c1"  ><rect class="tw1"  x="228" y="51"  height="18"/></clipPath>
+    <clipPath id="c3"  ><rect class="tw3"  x="378" y="69"  height="20"/></clipPath>
+    <clipPath id="c3b" ><rect class="tw3b" x="378" y="87" height="20"/></clipPath>
+    <clipPath id="c3c" ><rect class="tw3c" x="378" y="105" height="20"/></clipPath>
+    <clipPath id="c4"  ><rect class="tw4"  x="378" y="123" height="20"/></clipPath>
+    <clipPath id="c4b" ><rect class="tw4b" x="378" y="207" height="20"/></clipPath>
+    <clipPath id="cm1" ><rect class="twm1" x="378" y="275" height="20"/></clipPath>
+    <clipPath id="c5"  ><rect class="tw5"  x="378" y="441" height="20"/></clipPath>
+    <clipPath id="c5b" ><rect class="tw5b" x="378" y="509" height="20"/></clipPath>
+    <clipPath id="cm2" ><rect class="twm2" x="378" y="577" height="20"/></clipPath>
+    <clipPath id="c6"  ><rect class="tw6"  x="378" y="777" height="20"/></clipPath>
+    <clipPath id="c7"  ><rect class="tw7"  x="378" y="845" height="20"/></clipPath>
+
+    <clipPath id="prog-stg" ><rect class="prog-stg"  x="24" y="341" height="20"/></clipPath>
+    <clipPath id="prog-prod"><rect class="prog-prod" x="24" y="643" height="20"/></clipPath>
+  </defs>
+
+  <!-- Window -->
+  <rect width="820" height="915" rx="10" fill="#0d1117"/>
+  <rect width="820" height="42"   rx="10" fill="#161b22"/>
+  <rect y="34" width="820" height="8" fill="#161b22"/>
+  <rect width="820" height="915" rx="10" fill="none" stroke="#21262d" stroke-width="1"/>
+  <circle cx="22" cy="21" r="6" fill="#FF5F57"/>
+  <circle cx="44" cy="21" r="6" fill="#FEBC2E"/>
+  <circle cx="66" cy="21" r="6" fill="#28C840"/>
+  <text class="mono" x="410" y="26" text-anchor="middle" fill="#484f58" font-size="12">github.com</text>
+
+  <!-- LINE 1: cd (y=78) -->
+  <text class="mono" x="16"  y="65" fill="#21D18B" font-size="13">developer-samuel@github</text>
+  <text class="mono" x="196" y="65" fill="#398EEA" font-size="13">:~</text>
+  <text class="mono" x="213" y="65" fill="#21D18B" font-size="13"> $</text>
+  <rect class="cursor-1" x="228" y="53" width="8" height="14" fill="#e6edf3">
+    <set attributeName="opacity" to="1" begin="0.5s"/>
+    <animate attributeName="x" from="228" to="396" begin="0.5s" dur="0.63s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="2.5s"/>
+  </rect>
+  <text class="mono" x="228" y="65" fill="#e6edf3" font-size="13" clip-path="url(#c1)">cd samuel-steiner.com</text>
+
+  <!-- LINE 3: git checkout feat/og-metadata (y=96, +18) -->
+  <g class="prompt-3">
+    <text class="mono" x="16"  y="83" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="83" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="83" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="83" fill="#e6edf3" font-size="13" clip-path="url(#c3)">git checkout feat/og-metadata</text>
+
+  <!-- LINE 3b: git add . (y=114, +18) -->
+  <g class="prompt-3b">
+    <text class="mono" x="16"  y="101" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="101" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="101" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="101" fill="#e6edf3" font-size="13" clip-path="url(#c3b)">git add .</text>
+
+  <!-- LINE 3c: git commit (y=132, +18) -->
+  <g class="prompt-3c">
+    <text class="mono" x="16"  y="119" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="119" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="119" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="119" fill="#e6edf3" font-size="13" clip-path="url(#c3c)">git commit -m "feat: og-metadata"</text>
+
+  <!-- LINE 4: git push (y=150, +18) -->
+  <g class="prompt-4">
+    <text class="mono" x="16"  y="137" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="137" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="137" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="137" fill="#e6edf3" font-size="13" clip-path="url(#c4)">git push origin feat/og-metadata</text>
+
+  <!-- Pre-push hooks (y=168 +18, +16, +16, +16) -->
+  <g class="pp-1">
+    <text class="mono" x="16" y="155" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="155" fill="#8b949e" font-size="13">PHPStan • PHPMD • Deptrac • CS Fixer • Rector</text>
+  </g>
+  <g class="pp-2">
+    <text class="mono" x="16" y="171" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="171" fill="#8b949e" font-size="13">TypeScript • ESLint • Stylelint • Prettier</text>
+  </g>
+  <g class="pp-3">
+    <text class="mono" x="16" y="187" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="187" fill="#8b949e" font-size="13">Ruff • Mypy • Vulture • Gitleaks • yamllint</text>
+  </g>
+  <g class="pp-ok">
+    <text class="mono" x="16" y="203" fill="#01FF5E" font-size="13">✓</text>
+    <text class="mono" x="32" y="203" fill="#8b949e" font-size="13">Pre-push checks passed</text>
+  </g>
+
+  <!-- LINE 4b: gh pr create (y=234, +18) -->
+  <g class="prompt-4b">
+    <text class="mono" x="16"  y="221" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="221" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="221" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="221" fill="#e6edf3" font-size="13" clip-path="url(#c4b)">gh pr create --base staging --head feat/og-metadata</text>
+
+  <!-- PR feat to staging + AI (y=252 +18, +16, +16) -->
+  <g class="ci-pr">
+    <text class="mono" x="16" y="239" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="239" fill="#8b949e" font-size="13">PR opened  →  CI triggered - lint • tests • security</text>
+  </g>
+  <g class="ai-1">
+    <text class="mono" x="16" y="255" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="255" fill="#8b949e" font-size="13">Running AI analysis...</text>
+  </g>
+  <g class="ai-ok">
+    <text class="mono" x="16" y="271" fill="#01FF5E" font-size="13">✓</text>
+    <text class="mono" x="32" y="271" fill="#8b949e" font-size="13">Code quality approved</text>
+  </g>
+
+  <!-- LINE merge1 (y=302, +18) -->
+  <g class="prompt-m1">
+    <text class="mono" x="16"  y="289" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="289" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="289" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="289" fill="#e6edf3" font-size="13" clip-path="url(#cm1)">gh pr merge --squash</text>
+
+  <!-- Staging CI (y=320 +18, +16, +16) -->
+  <g class="stg-1">
+    <text class="mono" x="16" y="307" fill="#01FF5E" font-size="13">✓</text>
+    <text class="mono" x="32" y="307" fill="#8b949e" font-size="13">Build • SBOM • Trivy • Cosign  →  GHCR</text>
+  </g>
+  <g class="stg-2">
+    <text class="mono" x="16" y="323" fill="#01FF5E" font-size="13">✓</text>
+    <text class="mono" x="32" y="323" fill="#8b949e" font-size="13">Sync image tags  →  values.staging.yml committed</text>
+  </g>
+  <g class="stg-3">
+    <text class="mono" x="16" y="339" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="339" fill="#8b949e" font-size="13">ArgoCD detected change  →  syncing Helm release</text>
+  </g>
+
+  <!-- Staging progress bar (y=368, +16) -->
+  <g class="stg-bar-fr">
+    <text class="mono" x="16"  y="355" fill="#8b949e" font-size="13">[</text>
+    <text class="mono" x="98" y="355" fill="#8b949e" font-size="13">]</text>
+  </g>
+  <text class="mono" x="24" y="355" fill="#8b949e" font-size="13" clip-path="url(#prog-stg)">▓▓▓▓▓▓▓▓▓▓</text>
+  <g class="stg-bar-done">
+    <text class="mono" x="114" y="355" fill="#8b949e" font-size="13"> 100%</text>
+  </g>
+
+  <!-- Staging kubectl (y=386 +18, +16, +16, +16, +16) -->
+  <g class="stg-argocd">
+    <text class="mono" x="16" y="373" fill="#01FF5E" font-size="13">✓</text>
+    <text class="mono" x="32" y="373" fill="#8b949e" font-size="13">ArgoCD: sync wave complete</text>
+  </g>
+  <g class="stg-kubectl">
+    <text class="mono" x="16" y="389" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="389" fill="#8b949e" font-size="13">kubectl rollout status deploy/app -n staging</text>
+  </g>
+  <g class="stg-kctl-ok">
+    <text class="mono" x="30" y="405" fill="#8b949e" font-size="13">deployment "app" successfully rolled out</text>
+  </g>
+  <g class="stg-pods">
+    <text class="mono" x="16" y="421" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="421" fill="#8b949e" font-size="13">kubectl get pods -n staging</text>
+  </g>
+  <g class="stg-pod-1">
+    <text class="mono" x="30" y="437" fill="#8b949e" font-size="13">app-7d9f8b-xk2p4   1/1   Running   0   42s</text>
+  </g>
+
+  <!-- LINE 5: git checkout staging (y=468, +18) -->
+  <g class="prompt-5">
+    <text class="mono" x="16"  y="455" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="455" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="455" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="455" fill="#e6edf3" font-size="13" clip-path="url(#c5)">git checkout staging &amp;&amp; git pull origin staging</text>
+
+  <!-- git pull staging output (y=486 +18, +16, +16) -->
+  <g class="pull-stg-1">
+    <text class="mono" x="16" y="473" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="473" fill="#8b949e" font-size="13">From github.com:developer-samuel/samuel-steiner.com</text>
+  </g>
+  <g class="pull-stg-2">
+    <text class="mono" x="16" y="489" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="489" fill="#8b949e" font-size="13">src/api/metadata.ts | 4 </text>
+    <text class="mono" x="229" y="489" fill="#3fb950" font-size="13">++</text>
+    <text class="mono" x="245" y="489" fill="#f85149" font-size="13">--</text>
+  </g>
+  <g class="pull-stg-3">
+    <text class="mono" x="16" y="505" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="505" fill="#8b949e" font-size="13">1 file changed, 2 insertions(+), 2 deletions(-)</text>
+  </g>
+
+  <!-- LINE 5b: gh pr create staging to main (y=536, +18) -->
+  <g class="prompt-5b">
+    <text class="mono" x="16"  y="523" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="523" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="523" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="523" fill="#e6edf3" font-size="13" clip-path="url(#c5b)">gh pr create --base main --head staging</text>
+
+  <!-- PR staging to main + AI (y=554 +18, +16, +16) -->
+  <g class="stg-pr-1">
+    <text class="mono" x="16" y="541" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="541" fill="#8b949e" font-size="13">PR staging → main  →  CI • smoke tests • security</text>
+  </g>
+  <g class="stg-ai-1">
+    <text class="mono" x="16" y="557" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="557" fill="#8b949e" font-size="13">Running AI analysis...</text>
+  </g>
+  <g class="stg-pr-ok">
+    <text class="mono" x="16" y="573" fill="#01FF5E" font-size="13">✓</text>
+    <text class="mono" x="32" y="573" fill="#8b949e" font-size="13">Code quality approved</text>
+  </g>
+
+  <!-- LINE merge2 (y=604, +18) -->
+  <g class="prompt-m2">
+    <text class="mono" x="16"  y="591" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="591" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="591" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="591" fill="#e6edf3" font-size="13" clip-path="url(#cm2)">gh pr merge --squash</text>
+
+  <!-- Production CI (y=622 +18, +16, +16) -->
+  <g class="ci-1">
+    <text class="mono" x="16" y="609" fill="#01FF5E" font-size="13">✓</text>
+    <text class="mono" x="32" y="609" fill="#8b949e" font-size="13">Build • SBOM • Trivy • Cosign  →  GHCR</text>
+  </g>
+  <g class="ci-2">
+    <text class="mono" x="16" y="625" fill="#01FF5E" font-size="13">✓</text>
+    <text class="mono" x="32" y="625" fill="#8b949e" font-size="13">Sync image tags  →  values.prod.yaml committed</text>
+  </g>
+  <g class="ci-3">
+    <text class="mono" x="16" y="641" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="641" fill="#8b949e" font-size="13">ArgoCD detected change  →  syncing Helm release</text>
+  </g>
+
+  <!-- Production progress bar (y=670, +16) -->
+  <g class="prod-bar-fr">
+    <text class="mono" x="16"  y="657" fill="#8b949e" font-size="13">[</text>
+    <text class="mono" x="98" y="657" fill="#8b949e" font-size="13">]</text>
+  </g>
+  <text class="mono" x="24" y="657" fill="#8b949e" font-size="13" clip-path="url(#prog-prod)">▓▓▓▓▓▓▓▓▓▓</text>
+  <g class="prod-bar-done">
+    <text class="mono" x="114" y="657" fill="#8b949e" font-size="13"> 100%</text>
+  </g>
+
+  <!-- Production kubectl (y=688 +18, +16, +16, +16, +16) -->
+  <g class="prod-argocd">
+    <text class="mono" x="16" y="675" fill="#01FF5E" font-size="13">✓</text>
+    <text class="mono" x="32" y="675" fill="#8b949e" font-size="13">ArgoCD: sync wave complete</text>
+  </g>
+  <g class="prod-kubectl">
+    <text class="mono" x="16" y="691" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="691" fill="#8b949e" font-size="13">kubectl rollout status deploy/app -n production</text>
+  </g>
+  <g class="prod-kctl-ok">
+    <text class="mono" x="30" y="707" fill="#8b949e" font-size="13">deployment "app" successfully rolled out</text>
+  </g>
+  <g class="prod-pods">
+    <text class="mono" x="16" y="723" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="723" fill="#8b949e" font-size="13">kubectl get pods -n production</text>
+  </g>
+  <g class="prod-pod-1">
+    <text class="mono" x="30" y="739" fill="#8b949e" font-size="13">app-7d9f8b-mn8r2   1/1   Running   0   23s</text>
+  </g>
+
+  <!-- Lighthouse CI (y=770 +18, +16) -->
+  <g class="prod-lh-1">
+    <text class="mono" x="16" y="757" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="757" fill="#8b949e" font-size="13">Running Lighthouse CI...</text>
+  </g>
+  <g class="prod-lh-ok">
+    <text class="mono" x="16" y="773" fill="#01FF5E" font-size="13">✓</text>
+    <text class="mono" x="32" y="773" fill="#8b949e" font-size="13">Performance 98% • SEO 100% • Accessibility 100%</text>
+  </g>
+
+  <!-- LINE 6: git checkout main (y=804, +18) -->
+  <g class="prompt-6">
+    <text class="mono" x="16"  y="791" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="791" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="791" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="791" fill="#e6edf3" font-size="13" clip-path="url(#c6)">git checkout main &amp;&amp; git pull origin main</text>
+
+  <!-- git pull main output (y=822 +18, +16, +16) -->
+  <g class="pull-main-1">
+    <text class="mono" x="16" y="809" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="809" fill="#8b949e" font-size="13">From github.com:developer-samuel/samuel-steiner.com</text>
+  </g>
+  <g class="pull-main-2">
+    <text class="mono" x="16" y="825" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="825" fill="#8b949e" font-size="13">values.staging.yml | 2 </text>
+    <text class="mono" x="221" y="825" fill="#3fb950" font-size="13">+</text>
+    <text class="mono" x="229" y="825" fill="#f85149" font-size="13">-</text>
+  </g>
+  <g class="pull-main-3">
+    <text class="mono" x="16" y="841" fill="#484f58" font-size="13">&gt;</text>
+    <text class="mono" x="30" y="841" fill="#8b949e" font-size="13">1 file changed, 1 insertion(+), 1 deletion(-)</text>
+  </g>
+
+  <!-- LINE 7: curl (y=872, +18) -->
+  <g class="prompt-7">
+    <text class="mono" x="16"  y="859" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="859" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="859" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <text class="mono" x="378" y="859" fill="#e6edf3" font-size="13" clip-path="url(#c7)">curl -I samuel-steiner.com</text>
+
+  <!-- HTTP/2 200 (y=890, +18) -->
+  <g class="http-ok">
+    <text class="mono" x="16" y="877" fill="#01FF5E" font-size="13">HTTP/1.1 200 OK</text>
+  </g>
+
+  <!-- Final prompt + cursor -->
+  <g class="final">
+    <text class="mono" x="16"  y="891" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="891" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
+    <text class="mono" x="363" y="891" fill="#21D18B" font-size="13"> $</text>
+  </g>
+  <!-- Typing cursors -->
+  <rect x="378" y="71"  width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="2.5s"/>
+    <animate attributeName="x" from="378" to="608" begin="2.5s" dur="0.96s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="3.6s"/>
+  </rect>
+  <rect x="378" y="89"  width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="3.6s"/>
+    <animate attributeName="x" from="378" to="448" begin="3.6s" dur="0.27s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="4.0s"/>
+  </rect>
+  <rect x="378" y="107" width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="4.0s"/>
+    <animate attributeName="x" from="378" to="640" begin="4.0s" dur="0.99s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="5.1s"/>
+  </rect>
+  <rect x="378" y="125" width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="5.1s"/>
+    <animate attributeName="x" from="378" to="632" begin="5.1s" dur="0.96s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="6.8s"/>
+  </rect>
+  <rect x="378" y="209" width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="6.8s"/>
+    <animate attributeName="x" from="378" to="782" begin="6.8s" dur="1.53s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="8.95s"/>
+  </rect>
+  <rect x="378" y="277" width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="8.95s"/>
+    <animate attributeName="x" from="378" to="538" begin="8.95s" dur="0.60s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="12.05s"/>
+  </rect>
+  <rect x="378" y="443" width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="12.05s"/>
+    <animate attributeName="x" from="378" to="752" begin="12.05s" dur="1.41s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="14.05s"/>
+  </rect>
+  <rect x="378" y="511" width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="14.05s"/>
+    <animate attributeName="x" from="378" to="688" begin="14.05s" dur="1.17s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="15.85s"/>
+  </rect>
+  <rect x="378" y="579" width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="15.85s"/>
+    <animate attributeName="x" from="378" to="538" begin="15.85s" dur="0.60s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="19.25s"/>
+  </rect>
+  <rect x="378" y="779" width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="19.25s"/>
+    <animate attributeName="x" from="378" to="704" begin="19.25s" dur="1.23s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="21.05s"/>
+  </rect>
+  <rect x="378" y="847" width="8" height="14" fill="#e6edf3" opacity="0">
+    <set attributeName="opacity" to="1" begin="21.05s"/>
+    <animate attributeName="x" from="378" to="584" begin="21.05s" dur="0.78s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="22.0s"/>
+  </rect>
+
+  <rect class="cursor-end" x="378" y="879" width="8" height="14" fill="#e6edf3"/>
+</svg>

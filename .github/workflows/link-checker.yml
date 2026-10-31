@@ -1,0 +1,30 @@
+name: 🔗 Link checker
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: >
+            --include-mail=false
+            --timeout 30
+            --max-retries 3
+            --accept 200,204,429
+            --exclude 'shields\.io'
+            --exclude 'img\.shields\.io'
+            --exclude 'streak-stats\.demolab\.com'
+            --exclude 'komarev\.com'
+            README.md
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

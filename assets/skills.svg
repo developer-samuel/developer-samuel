@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 610" width="100%">
+  <rect width="820" height="610" fill="#0d1117"/>
+
+  <!-- Backend #8cc84b -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="20" fill="#8cc84b">▸ Backend</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="38" fill="#8b949e">PHP • Python • Laravel • Symfony • NestJS • Node.js • Express.js</text>
+
+  <!-- Architecture #a855f7 -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="62" fill="#a855f7">▸ Architecture &amp; Patterns</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="80" fill="#8b949e">DDD • CQRS • Event-Driven • Hexagonal • Clean Architecture • Modular Monolith • Microservices • Monorepo</text>
+
+  <!-- AI #01ff5e -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="104" fill="#01ff5e">▸ AI &amp; Automation</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="122" fill="#8b949e">RAG • Ollama • ChromaDB • FastAPI</text>
+
+  <!-- Database #e879f9 -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="146" fill="#e879f9">▸ Database &amp; Cache</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="164" fill="#8b949e">PostgreSQL • Elasticsearch • Redis • MySQL • MongoDB</text>
+
+  <!-- API #f59e0b -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="188" fill="#f59e0b">▸ API &amp; Real-time</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="206" fill="#8b949e">REST API • GraphQL • WebSockets • Mercure (SSE) • Swagger</text>
+
+  <!-- Messaging #ffa040 -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="230" fill="#ffa040">▸ Messaging</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="248" fill="#8b949e">RabbitMQ</text>
+
+  <!-- DevOps #2496ed -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="272" fill="#2496ed">▸ DevOps &amp; CI/CD</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="290" fill="#8b949e">Kubernetes • ArgoCD • Helm • Docker • GitHub Actions • Jenkins • Git • Bash • Makefile</text>
+
+  <!-- DevSecOps #ff6b35 -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="314" fill="#ff6b35">▸ DevSecOps</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="332" fill="#8b949e">Falco • Kyverno • Trivy • Grype • Gitleaks • CodeQL • Semgrep • ZAP • Renovate</text>
+
+  <!-- Infrastructure #94a3b8 -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="356" fill="#94a3b8">▸ Infrastructure</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="374" fill="#8b949e">Oracle Cloud • Terraform • Ansible • Traefik • Nginx • Cloudflare • MinIO • Linux • Vercel</text>
+
+  <!-- Monitoring #f43f5e -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="398" fill="#f43f5e">▸ Monitoring &amp; Observability</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="416" fill="#8b949e">OpenTelemetry • Tempo • Prometheus • Grafana • Loki • Sentry</text>
+
+  <!-- Testing #f97316 -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="440" fill="#f97316">▸ Testing &amp; Quality</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="458" fill="#8b949e">PHPStan • PHPUnit • Pest • pytest • Vitest • Jest • Playwright • PHPMD • Deptrac • mypy</text>
+
+  <!-- Security #facc15 -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="482" fill="#facc15">▸ Security</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="500" fill="#8b949e">OAuth2 • JWT • RBAC • 2FA • Rate Limiting • Input Validation</text>
+
+  <!-- Frontend #61dafb -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="524" fill="#61dafb">▸ Frontend</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="542" fill="#8b949e">TypeScript • React.js • Next.js • Vue.js • Nuxt.js • JavaScript • Tailwind CSS • SCSS</text>
+
+  <!-- Principles #ec4899 -->
+  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" x="6" y="566" fill="#ec4899">▸ Principles</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="12" x="6" y="584" fill="#8b949e">SOLID • Test-Driven Development • Clean Code • CUPID • DRY • KISS • YAGNI</text>
+</svg>
