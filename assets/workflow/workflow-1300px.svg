@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 915" width="100%">
   <defs>
     <style>
+      .txt { fill: #e6edf3; }
+      @media (prefers-color-scheme: light) { .txt { fill: #1f2328; } }
+      .dim { fill: #484f58; }
+      @media (prefers-color-scheme: light) { .dim { fill: #57606a; } }
+      .dim2 { fill: #8b949e; }
+      @media (prefers-color-scheme: light) { .dim2 { fill: #57606a; } }
       .mono { font-family: 'Courier New', Courier, monospace; }
 
       @keyframes blink-out {
@@ -141,14 +147,14 @@
   </defs>
 
   <!-- Window -->
-  <rect width="820" height="915" rx="10" fill="#0d1117"/>
+  <rect width="820" height="915" rx="10" fill="none"/>
   <rect width="820" height="42"   rx="10" fill="#161b22"/>
   <rect y="34" width="820" height="8" fill="#161b22"/>
   <rect width="820" height="915" rx="10" fill="none" stroke="#21262d" stroke-width="1"/>
   <circle cx="22" cy="21" r="6" fill="#FF5F57"/>
   <circle cx="44" cy="21" r="6" fill="#FEBC2E"/>
   <circle cx="66" cy="21" r="6" fill="#28C840"/>
-  <text class="mono" x="410" y="26" text-anchor="middle" fill="#484f58" font-size="12">github.com</text>
+  <text class="mono dim" x="410" y="26" text-anchor="middle"  font-size="12">github.com</text>
 
   <!-- LINE 1: cd (y=78) -->
   <text class="mono" x="16"  y="65" fill="#21D18B" font-size="13">developer-samuel@github</text>
@@ -159,7 +165,7 @@
     <animate attributeName="x" from="228" to="396" begin="0.5s" dur="0.63s" fill="freeze"/>
     <set attributeName="opacity" to="0" begin="2.5s"/>
   </rect>
-  <text class="mono" x="228" y="65" fill="#e6edf3" font-size="13" clip-path="url(#c1)">cd samuel-steiner.com</text>
+  <text class="mono txt" x="228" y="65"  font-size="13" clip-path="url(#c1)">cd samuel-steiner.com</text>
 
   <!-- LINE 3: git checkout feat/og-metadata (y=96, +18) -->
   <g class="prompt-3">
@@ -167,7 +173,7 @@
     <text class="mono" x="196" y="83" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="83" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="83" fill="#e6edf3" font-size="13" clip-path="url(#c3)">git checkout feat/og-metadata</text>
+  <text class="mono txt" x="378" y="83"  font-size="13" clip-path="url(#c3)">git checkout feat/og-metadata</text>
 
   <!-- LINE 3b: git add . (y=114, +18) -->
   <g class="prompt-3b">
@@ -175,7 +181,7 @@
     <text class="mono" x="196" y="101" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="101" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="101" fill="#e6edf3" font-size="13" clip-path="url(#c3b)">git add .</text>
+  <text class="mono txt" x="378" y="101"  font-size="13" clip-path="url(#c3b)">git add .</text>
 
   <!-- LINE 3c: git commit (y=132, +18) -->
   <g class="prompt-3c">
@@ -183,7 +189,7 @@
     <text class="mono" x="196" y="119" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="119" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="119" fill="#e6edf3" font-size="13" clip-path="url(#c3c)">git commit -m "feat: og-metadata"</text>
+  <text class="mono txt" x="378" y="119"  font-size="13" clip-path="url(#c3c)">git commit -m "feat: og-metadata"</text>
 
   <!-- LINE 4: git push (y=150, +18) -->
   <g class="prompt-4">
@@ -191,24 +197,24 @@
     <text class="mono" x="196" y="137" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="137" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="137" fill="#e6edf3" font-size="13" clip-path="url(#c4)">git push origin feat/og-metadata</text>
+  <text class="mono txt" x="378" y="137"  font-size="13" clip-path="url(#c4)">git push origin feat/og-metadata</text>
 
   <!-- Pre-push hooks (y=168 +18, +16, +16, +16) -->
   <g class="pp-1">
-    <text class="mono" x="16" y="155" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="155" fill="#8b949e" font-size="13">PHPStan • PHPMD • Deptrac • CS Fixer • Rector</text>
+    <text class="mono dim" x="16" y="155"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="155"  font-size="13">PHPStan • PHPMD • Deptrac • CS Fixer • Rector</text>
   </g>
   <g class="pp-2">
-    <text class="mono" x="16" y="171" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="171" fill="#8b949e" font-size="13">TypeScript • ESLint • Stylelint • Prettier</text>
+    <text class="mono dim" x="16" y="171"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="171"  font-size="13">TypeScript • ESLint • Stylelint • Prettier</text>
   </g>
   <g class="pp-3">
-    <text class="mono" x="16" y="187" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="187" fill="#8b949e" font-size="13">Ruff • Mypy • Vulture • Gitleaks • yamllint</text>
+    <text class="mono dim" x="16" y="187"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="187"  font-size="13">Ruff • Mypy • Vulture • Gitleaks • yamllint</text>
   </g>
   <g class="pp-ok">
     <text class="mono" x="16" y="203" fill="#01FF5E" font-size="13">✓</text>
-    <text class="mono" x="32" y="203" fill="#8b949e" font-size="13">Pre-push checks passed</text>
+    <text class="mono dim2" x="32" y="203"  font-size="13">Pre-push checks passed</text>
   </g>
 
   <!-- LINE 4b: gh pr create (y=234, +18) -->
@@ -217,20 +223,20 @@
     <text class="mono" x="196" y="221" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="221" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="221" fill="#e6edf3" font-size="13" clip-path="url(#c4b)">gh pr create --base staging --head feat/og-metadata</text>
+  <text class="mono txt" x="378" y="221"  font-size="13" clip-path="url(#c4b)">gh pr create --base staging --head feat/og-metadata</text>
 
   <!-- PR feat to staging + AI (y=252 +18, +16, +16) -->
   <g class="ci-pr">
-    <text class="mono" x="16" y="239" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="239" fill="#8b949e" font-size="13">PR opened  →  CI triggered - lint • tests • security</text>
+    <text class="mono dim" x="16" y="239"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="239"  font-size="13">PR opened  →  CI triggered - lint • tests • security</text>
   </g>
   <g class="ai-1">
-    <text class="mono" x="16" y="255" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="255" fill="#8b949e" font-size="13">Running AI analysis...</text>
+    <text class="mono dim" x="16" y="255"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="255"  font-size="13">Running AI analysis...</text>
   </g>
   <g class="ai-ok">
     <text class="mono" x="16" y="271" fill="#01FF5E" font-size="13">✓</text>
-    <text class="mono" x="32" y="271" fill="#8b949e" font-size="13">Code quality approved</text>
+    <text class="mono dim2" x="32" y="271"  font-size="13">Code quality approved</text>
   </g>
 
   <!-- LINE merge1 (y=302, +18) -->
@@ -239,50 +245,50 @@
     <text class="mono" x="196" y="289" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="289" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="289" fill="#e6edf3" font-size="13" clip-path="url(#cm1)">gh pr merge --squash</text>
+  <text class="mono txt" x="378" y="289"  font-size="13" clip-path="url(#cm1)">gh pr merge --squash</text>
 
   <!-- Staging CI (y=320 +18, +16, +16) -->
   <g class="stg-1">
     <text class="mono" x="16" y="307" fill="#01FF5E" font-size="13">✓</text>
-    <text class="mono" x="32" y="307" fill="#8b949e" font-size="13">Build • SBOM • Trivy • Cosign  →  GHCR</text>
+    <text class="mono dim2" x="32" y="307"  font-size="13">Build • SBOM • Trivy • Cosign  →  GHCR</text>
   </g>
   <g class="stg-2">
     <text class="mono" x="16" y="323" fill="#01FF5E" font-size="13">✓</text>
-    <text class="mono" x="32" y="323" fill="#8b949e" font-size="13">Sync image tags  →  values.staging.yml committed</text>
+    <text class="mono dim2" x="32" y="323"  font-size="13">Sync image tags  →  values.staging.yml committed</text>
   </g>
   <g class="stg-3">
-    <text class="mono" x="16" y="339" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="339" fill="#8b949e" font-size="13">ArgoCD detected change  →  syncing Helm release</text>
+    <text class="mono dim" x="16" y="339"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="339"  font-size="13">ArgoCD detected change  →  syncing Helm release</text>
   </g>
 
   <!-- Staging progress bar (y=368, +16) -->
   <g class="stg-bar-fr">
-    <text class="mono" x="16"  y="355" fill="#8b949e" font-size="13">[</text>
-    <text class="mono" x="98" y="355" fill="#8b949e" font-size="13">]</text>
+    <text class="mono dim2" x="16"  y="355"  font-size="13">[</text>
+    <text class="mono dim2" x="98" y="355"  font-size="13">]</text>
   </g>
-  <text class="mono" x="24" y="355" fill="#8b949e" font-size="13" clip-path="url(#prog-stg)">▓▓▓▓▓▓▓▓▓▓</text>
+  <text class="mono dim2" x="24" y="355"  font-size="13" clip-path="url(#prog-stg)">▓▓▓▓▓▓▓▓▓▓</text>
   <g class="stg-bar-done">
-    <text class="mono" x="114" y="355" fill="#8b949e" font-size="13"> 100%</text>
+    <text class="mono dim2" x="114" y="355"  font-size="13"> 100%</text>
   </g>
 
   <!-- Staging kubectl (y=386 +18, +16, +16, +16, +16) -->
   <g class="stg-argocd">
     <text class="mono" x="16" y="373" fill="#01FF5E" font-size="13">✓</text>
-    <text class="mono" x="32" y="373" fill="#8b949e" font-size="13">ArgoCD: sync wave complete</text>
+    <text class="mono dim2" x="32" y="373"  font-size="13">ArgoCD: sync wave complete</text>
   </g>
   <g class="stg-kubectl">
-    <text class="mono" x="16" y="389" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="389" fill="#8b949e" font-size="13">kubectl rollout status deploy/app -n staging</text>
+    <text class="mono dim" x="16" y="389"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="389"  font-size="13">kubectl rollout status deploy/app -n staging</text>
   </g>
   <g class="stg-kctl-ok">
-    <text class="mono" x="30" y="405" fill="#8b949e" font-size="13">deployment "app" successfully rolled out</text>
+    <text class="mono dim2" x="30" y="405"  font-size="13">deployment "app" successfully rolled out</text>
   </g>
   <g class="stg-pods">
-    <text class="mono" x="16" y="421" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="421" fill="#8b949e" font-size="13">kubectl get pods -n staging</text>
+    <text class="mono dim" x="16" y="421"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="421"  font-size="13">kubectl get pods -n staging</text>
   </g>
   <g class="stg-pod-1">
-    <text class="mono" x="30" y="437" fill="#8b949e" font-size="13">app-7d9f8b-xk2p4   1/1   Running   0   42s</text>
+    <text class="mono dim2" x="30" y="437"  font-size="13">app-7d9f8b-xk2p4   1/1   Running   0   42s</text>
   </g>
 
   <!-- LINE 5: git checkout staging (y=468, +18) -->
@@ -291,22 +297,22 @@
     <text class="mono" x="196" y="455" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="455" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="455" fill="#e6edf3" font-size="13" clip-path="url(#c5)">git checkout staging &amp;&amp; git pull origin staging</text>
+  <text class="mono txt" x="378" y="455"  font-size="13" clip-path="url(#c5)">git checkout staging &amp;&amp; git pull origin staging</text>
 
   <!-- git pull staging output (y=486 +18, +16, +16) -->
   <g class="pull-stg-1">
-    <text class="mono" x="16" y="473" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="473" fill="#8b949e" font-size="13">From github.com:developer-samuel/samuel-steiner.com</text>
+    <text class="mono dim" x="16" y="473"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="473"  font-size="13">From github.com:developer-samuel/samuel-steiner.com</text>
   </g>
   <g class="pull-stg-2">
-    <text class="mono" x="16" y="489" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="489" fill="#8b949e" font-size="13">src/api/metadata.ts | 4 </text>
+    <text class="mono dim" x="16" y="489"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="489"  font-size="13">src/api/metadata.ts | 4 </text>
     <text class="mono" x="229" y="489" fill="#3fb950" font-size="13">++</text>
     <text class="mono" x="245" y="489" fill="#f85149" font-size="13">--</text>
   </g>
   <g class="pull-stg-3">
-    <text class="mono" x="16" y="505" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="505" fill="#8b949e" font-size="13">1 file changed, 2 insertions(+), 2 deletions(-)</text>
+    <text class="mono dim" x="16" y="505"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="505"  font-size="13">1 file changed, 2 insertions(+), 2 deletions(-)</text>
   </g>
 
   <!-- LINE 5b: gh pr create staging to main (y=536, +18) -->
@@ -315,20 +321,20 @@
     <text class="mono" x="196" y="523" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="523" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="523" fill="#e6edf3" font-size="13" clip-path="url(#c5b)">gh pr create --base main --head staging</text>
+  <text class="mono txt" x="378" y="523"  font-size="13" clip-path="url(#c5b)">gh pr create --base main --head staging</text>
 
   <!-- PR staging to main + AI (y=554 +18, +16, +16) -->
   <g class="stg-pr-1">
-    <text class="mono" x="16" y="541" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="541" fill="#8b949e" font-size="13">PR staging → main  →  CI • smoke tests • security</text>
+    <text class="mono dim" x="16" y="541"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="541"  font-size="13">PR staging → main  →  CI • smoke tests • security</text>
   </g>
   <g class="stg-ai-1">
-    <text class="mono" x="16" y="557" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="557" fill="#8b949e" font-size="13">Running AI analysis...</text>
+    <text class="mono dim" x="16" y="557"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="557"  font-size="13">Running AI analysis...</text>
   </g>
   <g class="stg-pr-ok">
     <text class="mono" x="16" y="573" fill="#01FF5E" font-size="13">✓</text>
-    <text class="mono" x="32" y="573" fill="#8b949e" font-size="13">Code quality approved</text>
+    <text class="mono dim2" x="32" y="573"  font-size="13">Code quality approved</text>
   </g>
 
   <!-- LINE merge2 (y=604, +18) -->
@@ -337,60 +343,60 @@
     <text class="mono" x="196" y="591" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="591" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="591" fill="#e6edf3" font-size="13" clip-path="url(#cm2)">gh pr merge --squash</text>
+  <text class="mono txt" x="378" y="591"  font-size="13" clip-path="url(#cm2)">gh pr merge --squash</text>
 
   <!-- Production CI (y=622 +18, +16, +16) -->
   <g class="ci-1">
     <text class="mono" x="16" y="609" fill="#01FF5E" font-size="13">✓</text>
-    <text class="mono" x="32" y="609" fill="#8b949e" font-size="13">Build • SBOM • Trivy • Cosign  →  GHCR</text>
+    <text class="mono dim2" x="32" y="609"  font-size="13">Build • SBOM • Trivy • Cosign  →  GHCR</text>
   </g>
   <g class="ci-2">
     <text class="mono" x="16" y="625" fill="#01FF5E" font-size="13">✓</text>
-    <text class="mono" x="32" y="625" fill="#8b949e" font-size="13">Sync image tags  →  values.prod.yaml committed</text>
+    <text class="mono dim2" x="32" y="625"  font-size="13">Sync image tags  →  values.prod.yaml committed</text>
   </g>
   <g class="ci-3">
-    <text class="mono" x="16" y="641" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="641" fill="#8b949e" font-size="13">ArgoCD detected change  →  syncing Helm release</text>
+    <text class="mono dim" x="16" y="641"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="641"  font-size="13">ArgoCD detected change  →  syncing Helm release</text>
   </g>
 
   <!-- Production progress bar (y=670, +16) -->
   <g class="prod-bar-fr">
-    <text class="mono" x="16"  y="657" fill="#8b949e" font-size="13">[</text>
-    <text class="mono" x="98" y="657" fill="#8b949e" font-size="13">]</text>
+    <text class="mono dim2" x="16"  y="657"  font-size="13">[</text>
+    <text class="mono dim2" x="98" y="657"  font-size="13">]</text>
   </g>
-  <text class="mono" x="24" y="657" fill="#8b949e" font-size="13" clip-path="url(#prog-prod)">▓▓▓▓▓▓▓▓▓▓</text>
+  <text class="mono dim2" x="24" y="657"  font-size="13" clip-path="url(#prog-prod)">▓▓▓▓▓▓▓▓▓▓</text>
   <g class="prod-bar-done">
-    <text class="mono" x="114" y="657" fill="#8b949e" font-size="13"> 100%</text>
+    <text class="mono dim2" x="114" y="657"  font-size="13"> 100%</text>
   </g>
 
   <!-- Production kubectl (y=688 +18, +16, +16, +16, +16) -->
   <g class="prod-argocd">
     <text class="mono" x="16" y="675" fill="#01FF5E" font-size="13">✓</text>
-    <text class="mono" x="32" y="675" fill="#8b949e" font-size="13">ArgoCD: sync wave complete</text>
+    <text class="mono dim2" x="32" y="675"  font-size="13">ArgoCD: sync wave complete</text>
   </g>
   <g class="prod-kubectl">
-    <text class="mono" x="16" y="691" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="691" fill="#8b949e" font-size="13">kubectl rollout status deploy/app -n production</text>
+    <text class="mono dim" x="16" y="691"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="691"  font-size="13">kubectl rollout status deploy/app -n production</text>
   </g>
   <g class="prod-kctl-ok">
-    <text class="mono" x="30" y="707" fill="#8b949e" font-size="13">deployment "app" successfully rolled out</text>
+    <text class="mono dim2" x="30" y="707"  font-size="13">deployment "app" successfully rolled out</text>
   </g>
   <g class="prod-pods">
-    <text class="mono" x="16" y="723" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="723" fill="#8b949e" font-size="13">kubectl get pods -n production</text>
+    <text class="mono dim" x="16" y="723"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="723"  font-size="13">kubectl get pods -n production</text>
   </g>
   <g class="prod-pod-1">
-    <text class="mono" x="30" y="739" fill="#8b949e" font-size="13">app-7d9f8b-mn8r2   1/1   Running   0   23s</text>
+    <text class="mono dim2" x="30" y="739"  font-size="13">app-7d9f8b-mn8r2   1/1   Running   0   23s</text>
   </g>
 
   <!-- Lighthouse CI (y=770 +18, +16) -->
   <g class="prod-lh-1">
-    <text class="mono" x="16" y="757" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="757" fill="#8b949e" font-size="13">Running Lighthouse CI...</text>
+    <text class="mono dim" x="16" y="757"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="757"  font-size="13">Running Lighthouse CI...</text>
   </g>
   <g class="prod-lh-ok">
     <text class="mono" x="16" y="773" fill="#01FF5E" font-size="13">✓</text>
-    <text class="mono" x="32" y="773" fill="#8b949e" font-size="13">Performance 98% • SEO 100% • Accessibility 100%</text>
+    <text class="mono dim2" x="32" y="773"  font-size="13">Performance 98% • SEO 100% • Accessibility 100%</text>
   </g>
 
   <!-- LINE 6: git checkout main (y=804, +18) -->
@@ -399,22 +405,22 @@
     <text class="mono" x="196" y="791" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="791" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="791" fill="#e6edf3" font-size="13" clip-path="url(#c6)">git checkout main &amp;&amp; git pull origin main</text>
+  <text class="mono txt" x="378" y="791"  font-size="13" clip-path="url(#c6)">git checkout main &amp;&amp; git pull origin main</text>
 
   <!-- git pull main output (y=822 +18, +16, +16) -->
   <g class="pull-main-1">
-    <text class="mono" x="16" y="809" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="809" fill="#8b949e" font-size="13">From github.com:developer-samuel/samuel-steiner.com</text>
+    <text class="mono dim" x="16" y="809"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="809"  font-size="13">From github.com:developer-samuel/samuel-steiner.com</text>
   </g>
   <g class="pull-main-2">
-    <text class="mono" x="16" y="825" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="825" fill="#8b949e" font-size="13">values.staging.yml | 2 </text>
+    <text class="mono dim" x="16" y="825"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="825"  font-size="13">values.staging.yml | 2 </text>
     <text class="mono" x="221" y="825" fill="#3fb950" font-size="13">+</text>
     <text class="mono" x="229" y="825" fill="#f85149" font-size="13">-</text>
   </g>
   <g class="pull-main-3">
-    <text class="mono" x="16" y="841" fill="#484f58" font-size="13">&gt;</text>
-    <text class="mono" x="30" y="841" fill="#8b949e" font-size="13">1 file changed, 1 insertion(+), 1 deletion(-)</text>
+    <text class="mono dim" x="16" y="841"  font-size="13">&gt;</text>
+    <text class="mono dim2" x="30" y="841"  font-size="13">1 file changed, 1 insertion(+), 1 deletion(-)</text>
   </g>
 
   <!-- LINE 7: curl (y=872, +18) -->
@@ -423,7 +429,7 @@
     <text class="mono" x="196" y="859" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="859" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <text class="mono" x="378" y="859" fill="#e6edf3" font-size="13" clip-path="url(#c7)">curl -I samuel-steiner.com</text>
+  <text class="mono txt" x="378" y="859"  font-size="13" clip-path="url(#c7)">curl -I samuel-steiner.com</text>
 
   <!-- HTTP/2 200 (y=890, +18) -->
   <g class="http-ok">
@@ -436,62 +442,4 @@
     <text class="mono" x="196" y="891" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="891" fill="#21D18B" font-size="13"> $</text>
   </g>
-  <!-- Typing cursors -->
-  <rect x="378" y="71"  width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="2.5s"/>
-    <animate attributeName="x" from="378" to="608" begin="2.5s" dur="0.96s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="3.6s"/>
-  </rect>
-  <rect x="378" y="89"  width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="3.6s"/>
-    <animate attributeName="x" from="378" to="448" begin="3.6s" dur="0.27s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="4.0s"/>
-  </rect>
-  <rect x="378" y="107" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="4.0s"/>
-    <animate attributeName="x" from="378" to="640" begin="4.0s" dur="0.99s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="5.1s"/>
-  </rect>
-  <rect x="378" y="125" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="5.1s"/>
-    <animate attributeName="x" from="378" to="632" begin="5.1s" dur="0.96s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="6.8s"/>
-  </rect>
-  <rect x="378" y="209" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="6.8s"/>
-    <animate attributeName="x" from="378" to="782" begin="6.8s" dur="1.53s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="8.95s"/>
-  </rect>
-  <rect x="378" y="277" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="8.95s"/>
-    <animate attributeName="x" from="378" to="538" begin="8.95s" dur="0.60s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="12.05s"/>
-  </rect>
-  <rect x="378" y="443" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="12.05s"/>
-    <animate attributeName="x" from="378" to="752" begin="12.05s" dur="1.41s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="14.05s"/>
-  </rect>
-  <rect x="378" y="511" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="14.05s"/>
-    <animate attributeName="x" from="378" to="688" begin="14.05s" dur="1.17s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="15.85s"/>
-  </rect>
-  <rect x="378" y="579" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="15.85s"/>
-    <animate attributeName="x" from="378" to="538" begin="15.85s" dur="0.60s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="19.25s"/>
-  </rect>
-  <rect x="378" y="779" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="19.25s"/>
-    <animate attributeName="x" from="378" to="704" begin="19.25s" dur="1.23s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="21.05s"/>
-  </rect>
-  <rect x="378" y="847" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="21.05s"/>
-    <animate attributeName="x" from="378" to="584" begin="21.05s" dur="0.78s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="22.0s"/>
-  </rect>
-
-  <rect class="cursor-end" x="378" y="879" width="8" height="14" fill="#e6edf3"/>
 </svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 120" width="100%">
+  <defs>
+    <style>
+      .txt { fill: #e6edf3; }
+      @media (prefers-color-scheme: light) { .txt { fill: #1f2328; } }
+      .dim { fill: #484f58; }
+      @media (prefers-color-scheme: light) { .dim { fill: #57606a; } }
+      @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+      .a1 { animation: fadein 0.4s ease forwards; animation-delay: 0.1s; opacity: 0; }
+      .a2 { animation: fadein 0.4s ease forwards; animation-delay: 0.4s; opacity: 0; }
+      .a3 { animation: fadein 0.4s ease forwards; animation-delay: 0.7s; opacity: 0; }
+    </style>
+  </defs>
+
+  <rect width="640" height="120" fill="none"/>
+
+  <text font-family="'Courier New', Courier, monospace" font-size="18" font-weight="bold"
+        x="320" text-anchor="middle">
+    <tspan class="a1 txt" y="28" >Freelance • Contracts • Full-time</tspan>
+  </text>
+
+  <text font-family="'Courier New', Courier, monospace" font-size="17"
+        x="320" text-anchor="middle">
+    <tspan class="a2 txt" y="62" >Slovakia | EU | Remote</tspan>
+  </text>
+
+  <text font-family="'Courier New', Courier, monospace" font-size="16"
+        x="320" text-anchor="middle">
+    <tspan class="a3 dim" y="92" >Average response time - 48h</tspan>
+  </text>
+</svg>

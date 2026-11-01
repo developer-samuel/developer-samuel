@@ -1,17 +1,43 @@
 <div align="center">
 
-<img src="./assets/roles.svg" alt="Roles" width="100%" />
-<img src="./assets/stats.svg" alt="Stats" width="100%" />
+<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/roles/roles.svg">
+  <picture>
+    <source media="(max-width: 420px)" srcset="./assets/roles/roles-420px.svg">
+    <source media="(max-width: 640px)" srcset="./assets/roles/roles-640px.svg">
+    <img src="./assets/roles/roles.svg" alt="Roles" width="100%">
+  </picture>
+</a>
+
+<br/>
+
+<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/stats/stats.svg">
+  <picture>
+    <source media="(max-width: 420px)" srcset="./assets/stats/stats-420px.svg">
+    <source media="(max-width: 640px)" srcset="./assets/stats/stats-640px.svg">
+    <img src="./assets/stats/stats.svg" alt="Stats">
+  </picture>
+</a>
 
 </div>
 
 ## `> whoami`
 
-<img src="./assets/whoami.svg" alt="Who am I" width="100%" />
+<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/whoami/whoami.svg">
+  <picture>
+    <source media="(max-width: 420px)" srcset="./assets/whoami/whoami-420px.svg">
+    <source media="(max-width: 640px)" srcset="./assets/whoami/whoami-640px.svg">
+    <img src="./assets/whoami/whoami.svg" alt="Who am I" width="100%">
+  </picture>
+</a>
 
 ## `> ssh developer-samuel@samuel-steiner.com`
 
-<img src="./assets/workflow.svg" alt="Workflow" width="100%" />
+<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/workflow/workflow.svg">
+<picture>
+  <source media="(max-width: 1300px)" srcset="./assets/workflow/workflow-1300px.svg">
+  <img src="./assets/workflow/workflow.svg" alt="Workflow" width="100%">
+</picture>
+</a>
 
 <br/>
 
@@ -35,7 +61,13 @@ code quality, and delivery? That's what I do. Let's talk about what you're build
 
 ## `> cat skills.json`
 
-<img src="./assets/skills.svg" alt="Skills" width="100%" />
+<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/skills/skills.svg">
+  <picture>
+    <source media="(max-width: 420px)" srcset="./assets/skills/skills-420px.svg">
+    <source media="(max-width: 640px)" srcset="./assets/skills/skills-640px.svg">
+    <img src="./assets/skills/skills.svg" alt="Skills" width="100%">
+  </picture>
+</a>
 
 ## `> gh repo list`
 
@@ -48,26 +80,34 @@ Production-grade e-commerce monorepo - Symfony backend, Elasticsearch search, St
 
 <div align="center">
 
-<img src="./assets/projects/levelup-store/stack.svg" width="100%"/>
+<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/projects/levelup-store/stack.svg">
+<picture>
+  <source media="(max-width: 420px)" srcset="./assets/projects/levelup-store/stack-420px.svg">
+  <source media="(max-width: 640px)" srcset="./assets/projects/levelup-store/stack-640px.svg">
+  <source media="(max-width: 1024px)" srcset="./assets/projects/levelup-store/stack-1024px.svg">
+  <img src="./assets/projects/levelup-store/stack.svg" width="100%">
+</picture>
+</a>
 
 <br/>
 
-<table>
-<tr>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/1.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/1.webp" width="264"/></a></td>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/2.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/2.webp" width="264"/></a></td>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/3.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/3.webp" width="264"/></a></td>
-</tr>
-<tr>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/4.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/4.webp" width="264"/></a></td>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/5.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/5.webp" width="264"/></a></td>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/6.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/6.webp" width="264"/></a></td>
-</tr>
-<tr>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/7.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/7.webp" width="264"/></a></td>
-<td></td>
-<td></td>
-</tr>
+<table width="100%">
+  <tr>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/1.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/1.webp" width="400"/></a></td>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/2.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/2.webp" width="400"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/3.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/3.webp" width="400"/></a></td>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/4.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/4.webp" width="400"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/5.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/5.webp" width="400"/></a></td>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/6.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/6.webp" width="400"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/7.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/ecommerce/7.webp" width="400"/></a></td>
+    <td></td>
+  </tr>
 </table>
 
 </div>
@@ -85,21 +125,30 @@ Companion AI assistant from the LevelUp Store monorepo - answers questions about
 
 <div align="center">
 
-<img src="./assets/projects/levelup-store-assistant/stack.svg" width="100%"/>
+<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/projects/levelup-store-assistant/stack.svg">
+<picture>
+  <source media="(max-width: 420px)" srcset="./assets/projects/levelup-store-assistant/stack-420px.svg">
+  <source media="(max-width: 640px)" srcset="./assets/projects/levelup-store-assistant/stack-640px.svg">
+  <source media="(max-width: 1024px)" srcset="./assets/projects/levelup-store-assistant/stack-1024px.svg">
+  <img src="./assets/projects/levelup-store-assistant/stack.svg" width="100%">
+</picture>
+</a>
 
 <br/>
 
-<table>
-<tr>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/1.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/1.webp" width="264"/></a></td>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/2.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/2.webp" width="264"/></a></td>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/3.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/3.webp" width="264"/></a></td>
-</tr>
-<tr>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/4.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/4.webp" width="264"/></a></td>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/5.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/5.webp" width="264"/></a></td>
-<td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/6.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/6.webp" width="264"/></a></td>
-</tr>
+<table width="100%">
+  <tr>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/1.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/1.webp" width="400"/></a></td>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/2.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/2.webp" width="400"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/3.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/3.webp" width="400"/></a></td>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/4.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/4.webp" width="400"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/5.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/5.webp" width="400"/></a></td>
+    <td><a href="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/6.webp"><img src="https://raw.githubusercontent.com/developer-samuel/levelup-store-screenshots/main/assistant/6.webp" width="400"/></a></td>
+  </tr>
 </table>
 
 </div>
@@ -150,7 +199,13 @@ Companion AI assistant from the LevelUp Store monorepo - answers questions about
 ## `> gh api /users/developer-samuel`
 
 <p align="center">
-  <img src="./assets/metrics.svg" />
+  <a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/metrics/metrics.svg">
+    <picture>
+      <source media="(max-width: 420px)" srcset="./assets/metrics/metrics-420px.svg">
+      <source media="(max-width: 640px)" srcset="./assets/metrics/metrics-640px.svg">
+      <img src="./assets/metrics/metrics.svg" alt="Metrics">
+    </picture>
+  </a>
 </p>
 
 <p align="center">
@@ -158,7 +213,7 @@ Companion AI assistant from the LevelUp Store monorepo - answers questions about
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/developer-samuel/developer-samuel/output/github-contribution-grid-snake-dark.svg" />
+  <a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/output/github-contribution-grid-snake-dark.svg"><img src="https://raw.githubusercontent.com/developer-samuel/developer-samuel/output/github-contribution-grid-snake-dark.svg" width="100%" /></a>
 </p>
 
 <br/>
@@ -167,9 +222,21 @@ Companion AI assistant from the LevelUp Store monorepo - answers questions about
 
 <div align="center">
 
-<img src="./assets/available.svg" alt="Available" width="100%" />
+<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/available/available.svg">
+  <picture>
+    <source media="(max-width: 420px)" srcset="./assets/available/available-420px.svg">
+    <source media="(max-width: 640px)" srcset="./assets/available/available-640px.svg">
+    <source media="(max-width: 1024px)" srcset="./assets/available/available-1024px.svg">
+    <img src="./assets/available/available.svg" alt="Available" width="100%">
+  </picture>
+</a>
 
-<img src="./assets/divider.svg" width="100%"/>
+<picture>
+  <source media="(max-width: 420px)" srcset="./assets/divider/divider-420px.svg">
+  <source media="(max-width: 640px)" srcset="./assets/divider/divider-640px.svg">
+  <source media="(max-width: 1024px)" srcset="./assets/divider/divider-1024px.svg">
+  <img src="./assets/divider/divider.svg" alt="" width="100%">
+</picture>
 
 <br />
 

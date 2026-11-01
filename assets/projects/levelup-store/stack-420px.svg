@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 361" width="100%">
+    <rect width="420" height="361" fill="none"/>
+  <!-- Row 1 -->
+  <rect x="18" y="8" width="54" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="45" dominant-baseline="central" y="24" text-anchor="middle" fill="#01FF5E">PHP</text>
+  <rect x="78" y="8" width="104" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="130" dominant-baseline="central" y="24" text-anchor="middle" fill="#01FF5E">Symfony</text>
+  <rect x="188" y="8" width="142" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="259" dominant-baseline="central" y="24" text-anchor="middle" fill="#01FF5E">TypeScript</text>
+  <rect x="336" y="8" width="66" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="369" dominant-baseline="central" y="24" text-anchor="middle" fill="#01FF5E">SCSS</text>
+  <!-- Row 2 -->
+  <rect x="46" y="47" width="142" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="117" dominant-baseline="central" y="63" text-anchor="middle" fill="#01FF5E">PostgreSQL</text>
+  <rect x="194" y="47" width="180" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="284" dominant-baseline="central" y="63" text-anchor="middle" fill="#01FF5E">Elasticsearch</text>
+  <!-- Row 3 -->
+  <rect x="54" y="86" width="79" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="93" dominant-baseline="central" y="102" text-anchor="middle" fill="#01FF5E">Redis</text>
+  <rect x="139" y="86" width="117" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="197" dominant-baseline="central" y="102" text-anchor="middle" fill="#01FF5E">RabbitMQ</text>
+  <rect x="262" y="86" width="104" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="314" dominant-baseline="central" y="102" text-anchor="middle" fill="#01FF5E">Mercure</text>
+  <!-- Row 4 -->
+  <rect x="54" y="125" width="142" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="125" dominant-baseline="central" y="141" text-anchor="middle" fill="#01FF5E">Kubernetes</text>
+  <rect x="202" y="125" width="66" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="235" dominant-baseline="central" y="141" text-anchor="middle" fill="#01FF5E">Helm</text>
+  <rect x="274" y="125" width="92" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="320" dominant-baseline="central" y="141" text-anchor="middle" fill="#01FF5E">ArgoCD</text>
+  <!-- Row 5 -->
+  <rect x="36" y="164" width="104" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="88" dominant-baseline="central" y="180" text-anchor="middle" fill="#01FF5E">Jenkins</text>
+  <rect x="146" y="164" width="129" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="210" dominant-baseline="central" y="180" text-anchor="middle" fill="#01FF5E">Terraform</text>
+  <rect x="281" y="164" width="104" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="333" dominant-baseline="central" y="180" text-anchor="middle" fill="#01FF5E">Ansible</text>
+  <!-- Row 6 -->
+  <rect x="96" y="203" width="79" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="135" dominant-baseline="central" y="219" text-anchor="middle" fill="#01FF5E">Vault</text>
+  <rect x="181" y="203" width="142" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="252" dominant-baseline="central" y="219" text-anchor="middle" fill="#01FF5E">Coraza WAF</text>
+  <!-- Row 7 -->
+  <rect x="42" y="242" width="180" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="132" dominant-baseline="central" y="258" text-anchor="middle" fill="#01FF5E">OpenTelemetry</text>
+  <rect x="228" y="242" width="79" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="267" dominant-baseline="central" y="258" text-anchor="middle" fill="#01FF5E">Tempo</text>
+  <rect x="313" y="242" width="66" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="346" dominant-baseline="central" y="258" text-anchor="middle" fill="#01FF5E">Loki</text>
+  <!-- Row 8 -->
+  <rect x="42" y="281" width="142" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="113" dominant-baseline="central" y="297" text-anchor="middle" fill="#01FF5E">Prometheus</text>
+  <rect x="190" y="281" width="104" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="242" dominant-baseline="central" y="297" text-anchor="middle" fill="#01FF5E">Grafana</text>
+  <rect x="300" y="281" width="79" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="339" dominant-baseline="central" y="297" text-anchor="middle" fill="#01FF5E">Falco</text>
+  <!-- Row 9 -->
+  <rect x="11" y="320" width="104" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="63" dominant-baseline="central" y="336" text-anchor="middle" fill="#01FF5E">Kyverno</text>
+  <rect x="121" y="320" width="92" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="167" dominant-baseline="central" y="336" text-anchor="middle" fill="#01FF5E">Stripe</text>
+  <rect x="219" y="320" width="92" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="265" dominant-baseline="central" y="336" text-anchor="middle" fill="#01FF5E">Sentry</text>
+  <rect x="317" y="320" width="92" height="33" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="21" x="363" dominant-baseline="central" y="336" text-anchor="middle" fill="#01FF5E">Docker</text>
+</svg>

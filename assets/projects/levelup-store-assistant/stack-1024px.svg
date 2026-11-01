@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 82" width="100%">
+    <rect width="1024" height="82" fill="none"/>
+  <!-- Row 1 -->
+  <rect x="10" y="8" width="81" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="50" dominant-baseline="central" y="23" text-anchor="middle" fill="#01FF5E">Python</text>
+  <rect x="97" y="8" width="92" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="143" dominant-baseline="central" y="23" text-anchor="middle" fill="#01FF5E">FastAPI</text>
+  <rect x="195" y="8" width="81" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="235" dominant-baseline="central" y="23" text-anchor="middle" fill="#01FF5E">Ollama</text>
+  <rect x="282" y="8" width="102" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="333" dominant-baseline="central" y="23" text-anchor="middle" fill="#01FF5E">ChromaDB</text>
+  <rect x="390" y="8" width="70" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="425" dominant-baseline="central" y="23" text-anchor="middle" fill="#01FF5E">Redis</text>
+  <rect x="466" y="8" width="102" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="517" dominant-baseline="central" y="23" text-anchor="middle" fill="#01FF5E">RabbitMQ</text>
+  <rect x="574" y="8" width="70" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="609" dominant-baseline="central" y="23" text-anchor="middle" fill="#01FF5E">React</text>
+  <rect x="650" y="8" width="124" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="712" dominant-baseline="central" y="23" text-anchor="middle" fill="#01FF5E">TypeScript</text>
+  <rect x="780" y="8" width="146" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="853" dominant-baseline="central" y="23" text-anchor="middle" fill="#01FF5E">Tailwind CSS</text>
+  <rect x="932" y="8" width="81" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="972" dominant-baseline="central" y="23" text-anchor="middle" fill="#01FF5E">Docker</text>
+  <!-- Row 2 -->
+  <rect x="450" y="44" width="124" height="30" rx="6" fill="none" stroke="#01FF5E" stroke-width="0.5"/><text font-family="'Courier New', Courier, monospace" font-size="18" x="512" dominant-baseline="central" y="59" text-anchor="middle" fill="#01FF5E">Kubernetes</text>
+</svg>

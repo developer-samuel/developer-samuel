@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 254" width="100%">
+  <defs>
+    <style>      .dim2 { fill: #8b949e; }
+      @media (prefers-color-scheme: light) { .dim2 { fill: #57606a; } }
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+      .o1 { animation: fadein 0.1s ease forwards; animation-delay: 0.2s; opacity: 0; }
+      .o2 { animation: fadein 0.1s ease forwards; animation-delay: 0.4s; opacity: 0; }
+      .o3 { animation: fadein 0.1s ease forwards; animation-delay: 0.6s; opacity: 0; }
+      .o4 { animation: fadein 0.1s ease forwards; animation-delay: 0.8s; opacity: 0; }
+    </style>
+  </defs>
+
+  <rect width="640" height="254" fill="none"/>
+
+  <!-- name -->
+  <text class="mono o1" x="6" y="36" fill="#01FF5E" font-size="28" font-weight="bold">Samuel Šteiner</text>
+
+  <!-- roles -->
+  <text class="mono o2 dim2" x="6"  y="80"  font-size="21"><tspan fill="#01FF5E">▸</tspan> Backend Engineer • Platform Engineer •</text>
+  <text class="mono o2 dim2" x="24" y="107"  font-size="21">DevSecOps Engineer • AI Integration •</text>
+  <text class="mono o2 dim2" x="24" y="134"  font-size="21">Open-Source Contributor</text>
+
+  <!-- experience -->
+  <text class="mono o3 dim2" x="6"  y="167"  font-size="21"><tspan fill="#01FF5E">▸</tspan> Developer since 2017  •  Backend focus since 2019</text>
+  <text class="mono o3 dim2" x="24" y="194"  font-size="21">Production systems since 2022</text>
+
+  <!-- location -->
+  <text class="mono o4 dim2" x="6" y="227"  font-size="21"><tspan fill="#01FF5E">▸</tspan> Slovakia | EU | Remote</text>
+</svg>
