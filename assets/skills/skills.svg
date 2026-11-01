@@ -1,4 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 822" width="100%">
+  <defs>
+    <style>
+      .dim2 { fill: #8b949e; }
+      @media (prefers-color-scheme: light) { .dim2 { fill: #57606a; } }
+    </style>
+  </defs>
   <rect width="820" height="822" fill="none"/>
 
   <!-- Backend #8cc84b -->
