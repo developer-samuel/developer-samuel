@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: developer-samuel/github-stats-generator@af297458cc2dc3dc20b35f6c5f8437960ed53c4c # v1.1.0
+      - uses: developer-samuel/github-stats-generator@08078d19259b6b64d15ebfcb83308a3ca783881c # v1.1.0
         with:
           token: ${{ secrets.STATS_TOKEN }}
           username: developer-samuel
