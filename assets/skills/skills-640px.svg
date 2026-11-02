@@ -40,7 +40,7 @@
   <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="604" fill="#2496ed">▸ DevOps &amp; CI/CD</text>
   <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="642" class="dim2">Kubernetes • ArgoCD • Helm • Docker •</text>
   <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="666" class="dim2">GitHub Actions • Jenkins • Git • Bash •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="690" class="dim2">Makefile</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="690" class="dim2">Makefile • Justfile • Taskfile</text>
 
   <!-- DevSecOps #ff6b35 -->
   <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="728" fill="#ff6b35">▸ DevSecOps</text>
