@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" width="100%" style="overflow:hidden">
   <defs>
     <style>      @keyframes role {
-        0%     { transform: translateY(44px); opacity: 0; }
+        0%     { transform: translateY(40px); opacity: 0; }
         5.56%  { transform: translateY(0px);  opacity: 1; }
         13.89% { transform: translateY(0px);  opacity: 1; }
-        16.67% { transform: translateY(-44px); opacity: 0; }
-        100%   { transform: translateY(-44px); opacity: 0; }
+        16.67% { transform: translateY(-38px); opacity: 0; }
+        100%   { transform: translateY(-38px); opacity: 0; }
       }
 
       .role {
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
-        font-size: 44px;
+        font-size: 40px;
         fill: #01FF5E;
         animation: role 18s cubic-bezier(0.4, 0, 0.2, 1) infinite;
         transform-box: fill-box;
