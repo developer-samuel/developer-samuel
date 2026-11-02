@@ -32,11 +32,8 @@
 
 ## `> ssh developer-samuel@samuel-steiner.com`
 
-<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/workflow/workflow.svg">
-<picture>
-  <source media="(max-width: 1300px)" srcset="./assets/workflow/workflow-1300px.svg">
-  <img src="./assets/workflow/workflow.svg" alt="Workflow" width="100%">
-</picture>
+<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/workflow.svg">
+  <img src="./assets/workflow.svg" alt="Workflow" width="100%">
 </a>
 
 <br/>

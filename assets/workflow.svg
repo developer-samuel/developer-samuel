@@ -25,33 +25,33 @@
         to   { opacity: 1; }
       }
 
-      @keyframes tw1  { to { width: 170px; } }
-      @keyframes tw3  { to { width: 250px; } }
-      @keyframes tw3b { to { width:  70px; } }
-      @keyframes tw3c { to { width: 257px; } }
-      @keyframes tw4  { to { width: 250px; } }
-      @keyframes tw4b { to { width: 398px; } }
-      @keyframes twm1 { to { width: 170px; } }
-      @keyframes tw5  { to { width: 367px; } }
-      @keyframes tw5b { to { width: 312px; } }
-      @keyframes twm2 { to { width: 170px; } }
-      @keyframes tw6  { to { width: 320px; } }
-      @keyframes tw7  { to { width: 210px; } }
+      @keyframes tw1  { to { width: 178px; } }
+      @keyframes tw3  { to { width: 258px; } }
+      @keyframes tw3b { to { width:  78px; } }
+      @keyframes tw3c { to { width: 265px; } }
+      @keyframes tw4  { to { width: 258px; } }
+      @keyframes tw4b { to { width: 406px; } }
+      @keyframes twm1 { to { width: 178px; } }
+      @keyframes tw5  { to { width: 375px; } }
+      @keyframes tw5b { to { width: 320px; } }
+      @keyframes twm2 { to { width: 178px; } }
+      @keyframes tw6  { to { width: 328px; } }
+      @keyframes tw7  { to { width: 218px; } }
 
       @keyframes prog { to { width: 74px; } }
 
-      .tw1  { width: 0; animation: tw1  0.63s steps(21, end) forwards; animation-delay:  0.5s; }
-      .tw3  { width: 0; animation: tw3  0.96s steps(32, end) forwards; animation-delay:  2.5s; }
-      .tw3b { width: 0; animation: tw3b 0.27s steps( 9, end) forwards; animation-delay:  3.6s; }
-      .tw3c { width: 0; animation: tw3c 0.99s steps(33, end) forwards; animation-delay:  4.0s; }
-      .tw4  { width: 0; animation: tw4  0.96s steps(32, end) forwards; animation-delay:  5.1s; }
-      .tw4b { width: 0; animation: tw4b 1.53s steps(51, end) forwards; animation-delay:  6.8s; }
-      .twm1 { width: 0; animation: twm1 0.60s steps(20, end) forwards; animation-delay:  8.95s; }
-      .tw5  { width: 0; animation: tw5  1.41s steps(47, end) forwards; animation-delay: 12.05s; }
-      .tw5b { width: 0; animation: tw5b 1.17s steps(39, end) forwards; animation-delay: 14.05s; }
-      .twm2 { width: 0; animation: twm2 0.60s steps(20, end) forwards; animation-delay: 15.85s; }
-      .tw6  { width: 0; animation: tw6  1.23s steps(41, end) forwards; animation-delay: 19.25s; }
-      .tw7  { width: 0; animation: tw7  0.78s steps(26, end) forwards; animation-delay: 21.05s; }
+      .tw1  { width: 0; animation: tw1  0.63s steps(22, end) forwards; animation-delay:  0.5s; }
+      .tw3  { width: 0; animation: tw3  0.96s steps(33, end) forwards; animation-delay:  2.5s; }
+      .tw3b { width: 0; animation: tw3b 0.27s steps(10, end) forwards; animation-delay:  3.6s; }
+      .tw3c { width: 0; animation: tw3c 0.99s steps(34, end) forwards; animation-delay:  4.0s; }
+      .tw4  { width: 0; animation: tw4  0.96s steps(33, end) forwards; animation-delay:  5.1s; }
+      .tw4b { width: 0; animation: tw4b 1.53s steps(52, end) forwards; animation-delay:  6.8s; }
+      .twm1 { width: 0; animation: twm1 0.60s steps(21, end) forwards; animation-delay:  8.95s; }
+      .tw5  { width: 0; animation: tw5  1.41s steps(48, end) forwards; animation-delay: 12.05s; }
+      .tw5b { width: 0; animation: tw5b 1.17s steps(40, end) forwards; animation-delay: 14.05s; }
+      .twm2 { width: 0; animation: twm2 0.60s steps(21, end) forwards; animation-delay: 15.85s; }
+      .tw6  { width: 0; animation: tw6  1.23s steps(42, end) forwards; animation-delay: 19.25s; }
+      .tw7  { width: 0; animation: tw7  0.78s steps(27, end) forwards; animation-delay: 21.05s; }
 
       .prog-stg  { width: 0; animation: prog 1.0s steps(5, end) forwards; animation-delay: 10.15s; }
       .prog-prod { width: 0; animation: prog 1.0s steps(5, end) forwards; animation-delay: 17.05s; }
@@ -156,48 +156,45 @@
   <circle cx="66" cy="21" r="6" fill="#28C840"/>
   <text class="mono dim" x="410" y="26" text-anchor="middle"  font-size="12">github.com</text>
 
-  <!-- LINE 1: cd (y=78) -->
-  <text class="mono" x="16"  y="65" fill="#21D18B" font-size="13">developer-samuel@github</text>
-  <text class="mono" x="196" y="65" fill="#398EEA" font-size="13">:~</text>
-  <text class="mono" x="213" y="65" fill="#21D18B" font-size="13"> $</text>
-  <rect class="cursor-1" x="228" y="53" width="8" height="14" fill="#e6edf3">
-    <set attributeName="opacity" to="1" begin="0.5s"/>
-    <animate attributeName="x" from="228" to="396" begin="0.5s" dur="0.63s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="2.5s"/>
-  </rect>
-  <text class="mono txt" x="228" y="65"  font-size="13" clip-path="url(#c1)">cd samuel-steiner.com</text>
+  <!-- LINE 1: cd (y=65) -->
+  <g>
+    <text class="mono" x="16"  y="65" fill="#21D18B" font-size="13">developer-samuel@github</text>
+    <text class="mono" x="196" y="65" fill="#398EEA" font-size="13">:~</text>
+    <text class="mono" x="213" y="65" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="228" y="65" font-size="13" clip-path="url(#c1)">cd samuel-steiner.com<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="0.5s"/><set attributeName="opacity" to="0" begin="2.5s"/></tspan></text>
+  </g>
 
-  <!-- LINE 3: git checkout feat/og-metadata (y=96, +18) -->
+  <!-- LINE 3: git checkout feat/og-metadata (y=83) -->
   <g class="prompt-3">
     <text class="mono" x="16"  y="83" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="83" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="83" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="83" font-size="13" clip-path="url(#c3)">git checkout feat/og-metadata<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="2.5s"/><set attributeName="opacity" to="0" begin="3.6s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="83"  font-size="13" clip-path="url(#c3)">git checkout feat/og-metadata</text>
 
-  <!-- LINE 3b: git add . (y=114, +18) -->
+  <!-- LINE 3b: git add . (y=101) -->
   <g class="prompt-3b">
     <text class="mono" x="16"  y="101" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="101" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="101" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="101" font-size="13" clip-path="url(#c3b)">git add .<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="3.6s"/><set attributeName="opacity" to="0" begin="4.0s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="101"  font-size="13" clip-path="url(#c3b)">git add .</text>
 
-  <!-- LINE 3c: git commit (y=132, +18) -->
+  <!-- LINE 3c: git commit (y=119) -->
   <g class="prompt-3c">
     <text class="mono" x="16"  y="119" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="119" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="119" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="119" font-size="13" clip-path="url(#c3c)">git commit -m "feat: og-metadata"<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="4.0s"/><set attributeName="opacity" to="0" begin="5.1s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="119"  font-size="13" clip-path="url(#c3c)">git commit -m "feat: og-metadata"</text>
 
-  <!-- LINE 4: git push (y=150, +18) -->
+  <!-- LINE 4: git push (y=137) -->
   <g class="prompt-4">
     <text class="mono" x="16"  y="137" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="137" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="137" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="137" font-size="13" clip-path="url(#c4)">git push origin feat/og-metadata<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="5.1s"/><set attributeName="opacity" to="0" begin="6.8s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="137"  font-size="13" clip-path="url(#c4)">git push origin feat/og-metadata</text>
 
   <!-- Pre-push hooks (y=168 +18, +16, +16, +16) -->
   <g class="pp-1">
@@ -217,13 +214,13 @@
     <text class="mono dim2" x="32" y="203"  font-size="13">Pre-push checks passed</text>
   </g>
 
-  <!-- LINE 4b: gh pr create (y=234, +18) -->
+  <!-- LINE 4b: gh pr create (y=221) -->
   <g class="prompt-4b">
     <text class="mono" x="16"  y="221" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="221" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="221" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="221" font-size="13" clip-path="url(#c4b)">gh pr create --base staging --head feat/og-metadata<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="6.8s"/><set attributeName="opacity" to="0" begin="8.95s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="221"  font-size="13" clip-path="url(#c4b)">gh pr create --base staging --head feat/og-metadata</text>
 
   <!-- PR feat to staging + AI (y=252 +18, +16, +16) -->
   <g class="ci-pr">
@@ -239,13 +236,13 @@
     <text class="mono dim2" x="32" y="271"  font-size="13">Code quality approved</text>
   </g>
 
-  <!-- LINE merge1 (y=302, +18) -->
+  <!-- LINE merge1 (y=289) -->
   <g class="prompt-m1">
     <text class="mono" x="16"  y="289" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="289" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="289" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="289" font-size="13" clip-path="url(#cm1)">gh pr merge --squash<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="8.95s"/><set attributeName="opacity" to="0" begin="12.05s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="289"  font-size="13" clip-path="url(#cm1)">gh pr merge --squash</text>
 
   <!-- Staging CI (y=320 +18, +16, +16) -->
   <g class="stg-1">
@@ -291,13 +288,13 @@
     <text class="mono dim2" x="30" y="437"  font-size="13">app-7d9f8b-xk2p4   1/1   Running   0   42s</text>
   </g>
 
-  <!-- LINE 5: git checkout staging (y=468, +18) -->
+  <!-- LINE 5: git checkout staging (y=455) -->
   <g class="prompt-5">
     <text class="mono" x="16"  y="455" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="455" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="455" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="455" font-size="13" clip-path="url(#c5)">git checkout staging &amp;&amp; git pull origin staging<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="12.05s"/><set attributeName="opacity" to="0" begin="14.05s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="455"  font-size="13" clip-path="url(#c5)">git checkout staging &amp;&amp; git pull origin staging</text>
 
   <!-- git pull staging output (y=486 +18, +16, +16) -->
   <g class="pull-stg-1">
@@ -315,13 +312,13 @@
     <text class="mono dim2" x="30" y="505"  font-size="13">1 file changed, 2 insertions(+), 2 deletions(-)</text>
   </g>
 
-  <!-- LINE 5b: gh pr create staging to main (y=536, +18) -->
+  <!-- LINE 5b: gh pr create staging to main (y=523) -->
   <g class="prompt-5b">
     <text class="mono" x="16"  y="523" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="523" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="523" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="523" font-size="13" clip-path="url(#c5b)">gh pr create --base main --head staging<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="14.05s"/><set attributeName="opacity" to="0" begin="15.85s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="523"  font-size="13" clip-path="url(#c5b)">gh pr create --base main --head staging</text>
 
   <!-- PR staging to main + AI (y=554 +18, +16, +16) -->
   <g class="stg-pr-1">
@@ -337,13 +334,13 @@
     <text class="mono dim2" x="32" y="573"  font-size="13">Code quality approved</text>
   </g>
 
-  <!-- LINE merge2 (y=604, +18) -->
+  <!-- LINE merge2 (y=591) -->
   <g class="prompt-m2">
     <text class="mono" x="16"  y="591" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="591" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="591" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="591" font-size="13" clip-path="url(#cm2)">gh pr merge --squash<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="15.85s"/><set attributeName="opacity" to="0" begin="19.25s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="591"  font-size="13" clip-path="url(#cm2)">gh pr merge --squash</text>
 
   <!-- Production CI (y=622 +18, +16, +16) -->
   <g class="ci-1">
@@ -399,13 +396,13 @@
     <text class="mono dim2" x="32" y="773"  font-size="13">Performance 98% • SEO 100% • Accessibility 100%</text>
   </g>
 
-  <!-- LINE 6: git checkout main (y=804, +18) -->
+  <!-- LINE 6: git checkout main (y=791) -->
   <g class="prompt-6">
     <text class="mono" x="16"  y="791" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="791" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="791" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="791" font-size="13" clip-path="url(#c6)">git checkout main &amp;&amp; git pull origin main<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="19.25s"/><set attributeName="opacity" to="0" begin="21.05s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="791"  font-size="13" clip-path="url(#c6)">git checkout main &amp;&amp; git pull origin main</text>
 
   <!-- git pull main output (y=822 +18, +16, +16) -->
   <g class="pull-main-1">
@@ -423,81 +420,24 @@
     <text class="mono dim2" x="30" y="841"  font-size="13">1 file changed, 1 insertion(+), 1 deletion(-)</text>
   </g>
 
-  <!-- LINE 7: curl (y=872, +18) -->
+  <!-- LINE 7: curl (y=859) -->
   <g class="prompt-7">
     <text class="mono" x="16"  y="859" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="859" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="859" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono txt" x="378" y="859" font-size="13" clip-path="url(#c7)">curl -I samuel-steiner.com<tspan fill="#e6edf3" opacity="0">█<set attributeName="opacity" to="1" begin="21.05s"/><set attributeName="opacity" to="0" begin="22.0s"/></tspan></text>
   </g>
-  <text class="mono txt" x="378" y="859"  font-size="13" clip-path="url(#c7)">curl -I samuel-steiner.com</text>
 
-  <!-- HTTP/2 200 (y=890, +18) -->
+  <!-- HTTP/2 200 (y=877) -->
   <g class="http-ok">
     <text class="mono" x="16" y="877" fill="#01FF5E" font-size="13">HTTP/1.1 200 OK</text>
   </g>
 
-  <!-- Final prompt + cursor -->
+  <!-- Final prompt + blinking cursor -->
   <g class="final">
     <text class="mono" x="16"  y="891" fill="#21D18B" font-size="13">developer-samuel@github</text>
     <text class="mono" x="196" y="891" fill="#398EEA" font-size="13">:~/samuel-steiner.com</text>
     <text class="mono" x="363" y="891" fill="#21D18B" font-size="13"> $</text>
+    <text class="mono cursor-end" x="378" y="891" font-size="13" fill="#e6edf3">█</text>
   </g>
-  <!-- Typing cursors -->
-  <rect x="378" y="71"  width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="2.5s"/>
-    <animate attributeName="x" from="378" to="608" begin="2.5s" dur="0.96s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="3.6s"/>
-  </rect>
-  <rect x="378" y="89"  width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="3.6s"/>
-    <animate attributeName="x" from="378" to="448" begin="3.6s" dur="0.27s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="4.0s"/>
-  </rect>
-  <rect x="378" y="107" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="4.0s"/>
-    <animate attributeName="x" from="378" to="640" begin="4.0s" dur="0.99s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="5.1s"/>
-  </rect>
-  <rect x="378" y="125" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="5.1s"/>
-    <animate attributeName="x" from="378" to="632" begin="5.1s" dur="0.96s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="6.8s"/>
-  </rect>
-  <rect x="378" y="209" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="6.8s"/>
-    <animate attributeName="x" from="378" to="782" begin="6.8s" dur="1.53s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="8.95s"/>
-  </rect>
-  <rect x="378" y="277" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="8.95s"/>
-    <animate attributeName="x" from="378" to="538" begin="8.95s" dur="0.60s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="12.05s"/>
-  </rect>
-  <rect x="378" y="443" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="12.05s"/>
-    <animate attributeName="x" from="378" to="752" begin="12.05s" dur="1.41s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="14.05s"/>
-  </rect>
-  <rect x="378" y="511" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="14.05s"/>
-    <animate attributeName="x" from="378" to="688" begin="14.05s" dur="1.17s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="15.85s"/>
-  </rect>
-  <rect x="378" y="579" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="15.85s"/>
-    <animate attributeName="x" from="378" to="538" begin="15.85s" dur="0.60s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="19.25s"/>
-  </rect>
-  <rect x="378" y="779" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="19.25s"/>
-    <animate attributeName="x" from="378" to="704" begin="19.25s" dur="1.23s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="21.05s"/>
-  </rect>
-  <rect x="378" y="847" width="8" height="14" fill="#e6edf3" opacity="0">
-    <set attributeName="opacity" to="1" begin="21.05s"/>
-    <animate attributeName="x" from="378" to="584" begin="21.05s" dur="0.78s" fill="freeze"/>
-    <set attributeName="opacity" to="0" begin="22.0s"/>
-  </rect>
-
-  <rect class="cursor-end" x="378" y="879" width="8" height="14" fill="#e6edf3"/>
 </svg>
