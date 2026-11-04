@@ -32,7 +32,7 @@
   <rect width="640" height="80" fill="none"/>
 
   <g>
-    <text class="role r1" x="320" y="52" text-anchor="middle">Backend Engineer</text>
+    <text class="role r1" x="320" y="52" text-anchor="middle">Full-Stack Engineer</text>
     <text class="role r2" x="320" y="52" text-anchor="middle">Platform Engineer</text>
     <text class="role r3" x="320" y="52" text-anchor="middle">AI Integration</text>
     <text class="role r4" x="320" y="52" text-anchor="middle">DevSecOps Engineer</text>

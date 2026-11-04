@@ -11,7 +11,7 @@
       .role {
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 32px;
         fill: #01FF5E;
         animation: role 18s cubic-bezier(0.4, 0, 0.2, 1) infinite;
         transform-box: fill-box;
@@ -32,7 +32,7 @@
   <rect width="420" height="96" fill="none"/>
 
   <g>
-    <text class="role r1" x="210" y="62" text-anchor="middle">Backend Engineer</text>
+    <text class="role r1" x="210" y="62" text-anchor="middle">Full-Stack Engineer</text>
     <text class="role r2" x="210" y="62" text-anchor="middle">Platform Engineer</text>
     <text class="role r3" x="210" y="62" text-anchor="middle">AI Integration</text>
     <text class="role r4" x="210" y="62" text-anchor="middle">DevSecOps Engineer</text>

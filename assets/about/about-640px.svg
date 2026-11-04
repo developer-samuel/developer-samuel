@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 258" width="100%">
+  <defs>
+    <style>
+      .dim2 { fill: #8b949e; }
+      .hi   { fill: #01FF5E; }
+      .neu  { fill: #e6edf3; }
+      @media (prefers-color-scheme: light) {
+        .dim2 { fill: #57606a; }
+        .hi   { fill: #1a7f37; }
+        .neu  { fill: #1f2328; }
+      }
+      .mono { font-family: 'Courier New', Courier, monospace; }
+
+      @keyframes tw1  { to { width: 575px; } }
+      @keyframes tw2  { to { width: 585px; } }
+      @keyframes tw3  { to { width: 575px; } }
+      @keyframes tw4  { to { width: 511px; } }
+      @keyframes tw5  { to { width: 492px; } }
+      @keyframes tw6  { to { width: 483px; } }
+      @keyframes tw7  { to { width: 528px; } }
+      @keyframes tw8  { to { width: 585px; } }
+      @keyframes tw9  { to { width: 546px; } }
+      @keyframes tw10 { to { width: 463px; } }
+      @keyframes tw11 { to { width: 351px; } }
+
+      .tw1  { width: 0; animation: tw1  1.1s  linear forwards; animation-delay: 0.2s;  }
+      .tw2  { width: 0; animation: tw2  1.1s  linear forwards; animation-delay: 0.4s;  }
+      .tw3  { width: 0; animation: tw3  1.1s  linear forwards; animation-delay: 0.6s;  }
+      .tw4  { width: 0; animation: tw4  1.0s  linear forwards; animation-delay: 0.8s;  }
+      .tw5  { width: 0; animation: tw5  0.95s linear forwards; animation-delay: 1.0s;  }
+      .tw6  { width: 0; animation: tw6  0.9s  linear forwards; animation-delay: 1.2s;  }
+      .tw7  { width: 0; animation: tw7  1.0s  linear forwards; animation-delay: 2.3s;  }
+      .tw8  { width: 0; animation: tw8  1.1s  linear forwards; animation-delay: 2.5s;  }
+      .tw9  { width: 0; animation: tw9  1.0s  linear forwards; animation-delay: 3.4s;  }
+      .tw10 { width: 0; animation: tw10 1.1s  linear forwards; animation-delay: 3.6s;  }
+      .tw11 { width: 0; animation: tw11 0.6s  linear forwards; animation-delay: 3.8s;  }
+    </style>
+
+    <clipPath id="c1" ><rect class="tw1"  x="6" y="7"   height="17"/></clipPath>
+    <clipPath id="c2" ><rect class="tw2"  x="6" y="27"  height="17"/></clipPath>
+    <clipPath id="c3" ><rect class="tw3"  x="6" y="47"  height="17"/></clipPath>
+    <clipPath id="c4" ><rect class="tw4"  x="6" y="67"  height="17"/></clipPath>
+    <clipPath id="c5" ><rect class="tw5"  x="6" y="87"  height="17"/></clipPath>
+    <clipPath id="c6" ><rect class="tw6"  x="6" y="107" height="17"/></clipPath>
+    <clipPath id="c7" ><rect class="tw7"  x="6" y="137" height="17"/></clipPath>
+    <clipPath id="c8" ><rect class="tw8"  x="6" y="157" height="17"/></clipPath>
+    <clipPath id="c9" ><rect class="tw9"  x="6" y="187" height="17"/></clipPath>
+    <clipPath id="c10"><rect class="tw10" x="6" y="207" height="17"/></clipPath>
+    <clipPath id="c11"><rect class="tw11" x="6" y="227" height="17"/></clipPath>
+  </defs>
+
+  <rect width="640" height="258" fill="none"/>
+
+  <!-- paragraph 1 -->
+  <text class="mono" x="6" y="20" font-size="14" clip-path="url(#c1)">
+    <tspan class="dim2">Developer since </tspan><tspan class="neu">2017</tspan><tspan class="dim2">, focusing on full-stack engineering since</tspan>
+  </text>
+  <text class="mono" x="6" y="40" font-size="14" clip-path="url(#c2)">
+    <tspan class="neu">2019</tspan><tspan class="dim2"> - shipping production systems since </tspan><tspan class="neu">2022</tspan><tspan class="dim2">, lately expanding</tspan>
+  </text>
+  <text class="mono" x="6" y="60" font-size="14" clip-path="url(#c3)">
+    <tspan class="dim2">into </tspan><tspan class="hi">Platform Engineering, DevOps</tspan><tspan class="dim2">, and </tspan><tspan class="hi">DevSecOps</tspan><tspan class="dim2">: </tspan><tspan class="hi">Kubernetes,</tspan>
+  </text>
+  <text class="mono" x="6" y="80" font-size="14" clip-path="url(#c4)">
+    <tspan class="hi">GitOps, IaC, security scanning,</tspan><tspan class="dim2"> and </tspan><tspan class="hi">AI-powered systems</tspan><tspan class="dim2">.</tspan>
+  </text>
+  <text class="mono" x="6" y="100" font-size="14" clip-path="url(#c5)">
+    <tspan class="dim2">Background across e-commerce platforms, financial and</tspan>
+  </text>
+  <text class="mono" x="6" y="120" font-size="14" clip-path="url(#c6)">
+    <tspan class="dim2">investment systems, and field technician schedulers.</tspan>
+  </text>
+
+  <!-- paragraph 2 -->
+  <text class="mono" x="6" y="150" font-size="14" clip-path="url(#c7)">
+    <tspan class="dim2">I care about architecture that ages well - </tspan><tspan class="hi">Hexagonal DDD</tspan><tspan class="dim2">,</tspan>
+  </text>
+  <text class="mono" x="6" y="170" font-size="14" clip-path="url(#c8)">
+    <tspan class="dim2">clear boundaries, code the next engineer can actually work with.</tspan>
+  </text>
+
+  <!-- paragraph 3 -->
+  <text class="mono" x="6" y="200" font-size="14" clip-path="url(#c9)">
+    <tspan class="dim2">Looking for someone who can own the full stack end-to-end -</tspan>
+  </text>
+  <text class="mono" x="6" y="220" font-size="14" clip-path="url(#c10)">
+    <tspan class="dim2">architecture, delivery, and everything in between?</tspan>
+  </text>
+  <text class="mono" x="6" y="240" font-size="14" clip-path="url(#c11)">
+    <tspan class="dim2">That&apos;s exactly what I do. </tspan><tspan class="hi">Let&apos;s talk.</tspan>
+  </text>
+</svg>

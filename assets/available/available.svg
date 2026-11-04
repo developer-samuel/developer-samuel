@@ -14,18 +14,18 @@
 
   <rect width="820" height="100" fill="none"/>
 
-  <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold"
+  <text font-family="'Courier New', Courier, monospace" font-size="16" font-weight="bold"
         x="410" text-anchor="middle">
-    <tspan class="a1 txt" y="26" >Freelance • Contracts • Full-time</tspan>
+    <tspan class="a1 txt" y="28" >Freelance • Contracts • Full-time</tspan>
+  </text>
+
+  <text font-family="'Courier New', Courier, monospace" font-size="15"
+        x="410" text-anchor="middle">
+    <tspan class="a2 txt" y="56" >Slovakia | EU | Remote</tspan>
   </text>
 
   <text font-family="'Courier New', Courier, monospace" font-size="13"
         x="410" text-anchor="middle">
-    <tspan class="a2 txt" y="54" >Slovakia | EU | Remote</tspan>
-  </text>
-
-  <text font-family="'Courier New', Courier, monospace" font-size="12"
-        x="410" text-anchor="middle">
-    <tspan class="a3 dim" y="78" >Average response time - 48h</tspan>
+    <tspan class="a3 dim" y="80" >Average response time - 48h</tspan>
   </text>
 </svg>

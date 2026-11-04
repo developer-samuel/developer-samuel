@@ -1,89 +1,140 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 1674" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 1544" width="100%">
   <defs>
     <style>
       .dim2 { fill: #8b949e; }
       @media (prefers-color-scheme: light) { .dim2 { fill: #57606a; } }
+
+      @keyframes slideInLeft {
+        from { transform: translateX(-20px); opacity: 0; }
+        to   { transform: translateX(0);     opacity: 1; }
+      }
+      @keyframes slideDown {
+        from { transform: translateY(-12px); opacity: 0; }
+        to   { transform: translateY(0);     opacity: 1; }
+      }
     </style>
   </defs>
-  <rect width="420" height="1674" fill="none"/>
+  <rect width="420" height="1544" fill="none"/>
 
-  <!-- Backend #8cc84b -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="28" fill="#8cc84b">▸ Backend</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="62" class="dim2">PHP • Python • Laravel • Symfony •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="86" class="dim2">NestJS • Node.js • Express.js</text>
+  <!-- Backend -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="28" fill="#8cc84b"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 0.1s;">▸ Backend</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="62" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 0.25s;">PHP • Python • Laravel • Symfony •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="86" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 0.35s;">NestJS • Node.js • Express.js</text>
 
-  <!-- Architecture #a855f7 -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="130" fill="#a855f7">▸ Architecture &amp; Patterns</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="164" class="dim2">DDD • CQRS • Event-Driven •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="188" class="dim2">Hexagonal • Clean Architecture •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="212" class="dim2">Modular Monolith • Microservices •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="236" class="dim2">Monorepo</text>
+  <!-- Architecture -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="130" fill="#a855f7"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 0.4s;">▸ Architecture &amp; Patterns</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="164" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 0.55s;">DDD • CQRS • Event-Driven •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="188" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 0.65s;">Hexagonal • Clean Architecture •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="212" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 0.75s;">Modular Monolith • Microservices •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="236" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 0.85s;">Monorepo</text>
 
-  <!-- AI #01ff5e -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="280" fill="#01ff5e">▸ AI &amp; Automation</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="314" class="dim2">RAG • Ollama • ChromaDB • FastAPI</text>
+  <!-- AI -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="280" fill="#01ff5e"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 0.75s;">▸ AI &amp; Automation</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="314" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 0.9s;">RAG • Ollama • ChromaDB • FastAPI</text>
 
-  <!-- Database #e879f9 -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="358" fill="#e879f9">▸ Database &amp; Cache</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="392" class="dim2">PostgreSQL • Elasticsearch •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="416" class="dim2">Redis • MySQL • MongoDB</text>
+  <!-- Database -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="358" fill="#e879f9"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 1.05s;">▸ Database &amp; Cache</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="392" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 1.2s;">PostgreSQL • Elasticsearch •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="416" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 1.3s;">Redis • MySQL • MongoDB</text>
 
-  <!-- API #f59e0b -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="460" fill="#f59e0b">▸ API &amp; Real-time</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="494" class="dim2">REST API • GraphQL • WebSockets •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="518" class="dim2">Mercure (SSE) • Swagger</text>
+  <!-- API -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="460" fill="#f59e0b"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 1.35s;">▸ API &amp; Real-time</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="494" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 1.5s;">REST API • GraphQL • WebSockets •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="518" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 1.6s;">Mercure (SSE) • OpenAPI/Swagger</text>
 
-  <!-- Messaging #ffa040 -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="562" fill="#ffa040">▸ Messaging</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="596" class="dim2">RabbitMQ</text>
+  <!-- Messaging -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="562" fill="#ffa040"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 1.65s;">▸ Messaging</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="596" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 1.8s;">RabbitMQ • Redis Pub/Sub</text>
 
-  <!-- DevOps #2496ed -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="640" fill="#2496ed">▸ DevOps &amp; CI/CD</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="674" class="dim2">Kubernetes • ArgoCD • Helm •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="698" class="dim2">Docker • GitHub Actions •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="722" class="dim2">Jenkins • Git • Bash • Makefile •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="746" class="dim2">Justfile • Taskfile</text>
+  <!-- DevOps -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="640" fill="#2496ed"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 1.95s;">▸ DevOps &amp; CI/CD</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="674" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 2.1s;">Kubernetes • ArgoCD • Helm •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="698" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 2.2s;">Docker • GitHub Actions •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="722" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 2.3s;">Jenkins • Git • Bash • Makefile •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="746" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 2.4s;">Justfile • Taskfile</text>
 
-  <!-- DevSecOps #ff6b35 -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="790" fill="#ff6b35">▸ DevSecOps</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="824" class="dim2">Falco • Kyverno • Trivy • Grype •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="848" class="dim2">Gitleaks • CodeQL • Semgrep •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="872" class="dim2">ZAP • Renovate</text>
+  <!-- DevSecOps -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="790" fill="#ff6b35"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 2.3s;">▸ DevSecOps</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="824" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 2.45s;">Falco • Kyverno • Trivy • Grype •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="848" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 2.55s;">Gitleaks • CodeQL • Semgrep •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="872" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 2.65s;">ZAP • Renovate</text>
 
-  <!-- Infrastructure #94a3b8 -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="916" fill="#94a3b8">▸ Infrastructure</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="950" class="dim2">Oracle Cloud • Terraform •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="974" class="dim2">Ansible • Traefik • Nginx •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="998" class="dim2">Cloudflare • MinIO • Linux •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1022" class="dim2">Vercel</text>
+  <!-- Infrastructure -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="916" fill="#94a3b8"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 2.6s;">▸ Infrastructure</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="950" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 2.75s;">Oracle Cloud • Terraform •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="974" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 2.85s;">Ansible • Traefik • Nginx •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="998" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 2.95s;">Cloudflare • MinIO • Linux •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1022" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 3.05s;">Vercel</text>
 
-  <!-- Monitoring #f43f5e -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="1066" fill="#f43f5e">▸ Monitoring &amp; Observability</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1100" class="dim2">OpenTelemetry • Tempo •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1124" class="dim2">Prometheus • Grafana • Loki •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1148" class="dim2">Sentry</text>
+  <!-- Monitoring -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="1066" fill="#f43f5e"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 2.95s;">▸ Monitoring &amp; Observability</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1100" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 3.1s;">OpenTelemetry • Tempo •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1124" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 3.2s;">Prometheus • Grafana • Loki •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1148" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 3.3s;">Sentry</text>
 
-  <!-- Testing #f97316 -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="1192" fill="#f97316">▸ Testing &amp; Quality</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1226" class="dim2">PHPStan • PHPUnit • Pest •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1250" class="dim2">pytest • Vitest • Jest •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1274" class="dim2">Playwright • PHPMD • Deptrac •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1298" class="dim2">mypy</text>
+  <!-- Testing -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="1192" fill="#f97316"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 3.25s;">▸ Testing &amp; Quality</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1226" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 3.4s;">PHPStan • PHPUnit • Pest •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1250" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 3.5s;">pytest • Vitest • Jest •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1274" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 3.6s;">Playwright • PHPMD • Deptrac •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1298" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 3.7s;">mypy</text>
 
-  <!-- Security #facc15 -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="1342" fill="#facc15">▸ Security</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1376" class="dim2">OAuth2 • JWT • RBAC • 2FA •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1400" class="dim2">Rate Limiting • Input Validation</text>
+  <!-- Security -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="1342" fill="#facc15"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 3.6s;">▸ Security</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1376" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 3.75s;">OAuth2 • JWT • RBAC • 2FA •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1400" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 3.85s;">Rate Limiting • Input Validation</text>
 
-  <!-- Frontend #61dafb -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="1444" fill="#61dafb">▸ Frontend</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1478" class="dim2">TypeScript • React.js • Next.js •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1502" class="dim2">Vue.js • Nuxt.js • JavaScript •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1526" class="dim2">Tailwind CSS • SCSS</text>
-
-  <!-- Principles #ec4899 -->
-  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="1570" fill="#ec4899">▸ Principles</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1604" class="dim2">SOLID • Test-Driven Development •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1628" class="dim2">Clean Code • CUPID • DRY •</text>
-  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1652" class="dim2">KISS • YAGNI</text>
+  <!-- Frontend -->
+  <text font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" x="6" y="1444" fill="#61dafb"
+        style="opacity:0; animation: slideInLeft 0.25s ease-out both; animation-delay: 3.9s;">▸ Frontend</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1478" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 4.05s;">TypeScript • React.js • Next.js •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1502" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 4.15s;">Vue.js • Nuxt.js • JavaScript •</text>
+  <text font-family="'Courier New', Courier, monospace" font-size="20" x="6" y="1526" class="dim2"
+        style="opacity:0; animation: slideDown 0.2s ease-out both; animation-delay: 4.25s;">Tailwind CSS • SCSS</text>
 </svg>

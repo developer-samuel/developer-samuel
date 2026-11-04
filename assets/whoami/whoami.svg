@@ -17,11 +17,11 @@
   <text class="mono o1" x="6" y="26" fill="#01FF5E" font-size="20" font-weight="bold">Samuel Šteiner</text>
 
   <!-- roles -->
-  <text class="mono o2 dim2" x="6"  y="62"  font-size="15"><tspan fill="#01FF5E">▸</tspan> Backend Engineer • Platform Engineer • DevSecOps Engineer •</text>
-  <text class="mono o2 dim2" x="20" y="80"  font-size="15">AI Integration • Open-Source Contributor</text>
+  <text class="mono o2 dim2" x="6"  y="62"  font-size="15"><tspan fill="#01FF5E">▸</tspan> Full-Stack Engineer • Platform Engineer • DevSecOps Engineer •</text>
+  <text class="mono o2 dim2" x="24" y="80"  font-size="15">AI Integration • Open-Source Contributor</text>
 
   <!-- experience -->
-  <text class="mono o3 dim2" x="6" y="102"  font-size="15"><tspan fill="#01FF5E">▸</tspan> Developer since 2017  •  Backend focus since 2019  •  Production systems since 2022</text>
+  <text class="mono o3 dim2" x="6" y="102"  font-size="15"><tspan fill="#01FF5E">▸</tspan> Developer since 2017  •  Full-Stack focus since 2019  •  Production systems since 2022</text>
 
   <!-- location -->
   <text class="mono o4 dim2" x="6" y="124"  font-size="15"><tspan fill="#01FF5E">▸</tspan> Slovakia | EU | Remote</text>

@@ -30,29 +30,23 @@
   </picture>
 </a>
 
+## `> cat about.txt`
+
+<a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/about/about.svg">
+  <picture>
+    <source media="(max-width: 420px)" srcset="./assets/about/about-420px.svg">
+    <source media="(max-width: 640px)" srcset="./assets/about/about-640px.svg">
+    <img src="./assets/about/about.svg" alt="About" width="100%">
+  </picture>
+</a>
+
+<br/>
+
 ## `> ssh developer-samuel@samuel-steiner.com`
 
 <a href="https://raw.githubusercontent.com/developer-samuel/developer-samuel/main/assets/workflow.svg">
   <img src="./assets/workflow.svg" alt="Workflow" width="100%">
 </a>
-
-<br/>
-
-## `> cat about.txt`
-
-```
-Developer since 2017, focusing on backend engineering since 2019 - shipping
-production systems since 2022, lately expanding into Platform Engineering,
-DevOps, and DevSecOps: Kubernetes, GitOps, IaC, security scanning, and
-AI-powered systems. Background across e-commerce platforms, financial and
-investment systems, and field technician schedulers.
-
-I care about architecture that ages well - Hexagonal DDD, clear boundaries,
-code the next engineer can actually work with.
-
-Looking for someone who can own a codebase end-to-end - architecture, DevOps,
-code quality, and delivery? That's what I do. Let's talk about what you're building.
-```
 
 <br/>
 
@@ -243,7 +237,6 @@ Companion AI assistant from the LevelUp Store monorepo - answers questions about
 [![Links](https://img.shields.io/badge/Links-EF4444?style=for-the-badge&logo=linktree&logoColor=white)](https://links.samuel-steiner.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/samuel-programmer)
 [![GitHub](https://img.shields.io/badge/GitHub-30363D?style=for-the-badge&logo=github&logoColor=01FF5E)](https://github.com/developer-samuel)
-[![Instagram](https://img.shields.io/badge/Instagram-FB923C?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/samuel.programmer)
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/developer-samuel)
 

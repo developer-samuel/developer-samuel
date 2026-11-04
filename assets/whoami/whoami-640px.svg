@@ -17,13 +17,13 @@
   <text class="mono o1" x="6" y="36" fill="#01FF5E" font-size="28" font-weight="bold">Samuel Šteiner</text>
 
   <!-- roles -->
-  <text class="mono o2 dim2" x="6"  y="80"  font-size="21"><tspan fill="#01FF5E">▸</tspan> Backend Engineer • Platform Engineer •</text>
-  <text class="mono o2 dim2" x="24" y="107"  font-size="21">DevSecOps Engineer • AI Integration •</text>
-  <text class="mono o2 dim2" x="24" y="134"  font-size="21">Open-Source Contributor</text>
+  <text class="mono o2 dim2" x="6"  y="80"  font-size="21"><tspan fill="#01FF5E">▸</tspan> Full-Stack Engineer • Platform Engineer •</text>
+  <text class="mono o2 dim2" x="31" y="107"  font-size="21">DevSecOps Engineer • AI Integration •</text>
+  <text class="mono o2 dim2" x="31" y="134"  font-size="21">Open-Source Contributor</text>
 
   <!-- experience -->
-  <text class="mono o3 dim2" x="6"  y="167"  font-size="21"><tspan fill="#01FF5E">▸</tspan> Developer since 2017  •  Backend focus since 2019</text>
-  <text class="mono o3 dim2" x="24" y="194"  font-size="21">Production systems since 2022</text>
+  <text class="mono o3 dim2" x="6"  y="167"  font-size="21"><tspan fill="#01FF5E">▸</tspan> Developer since 2017  •  Full-Stack focus since 2019</text>
+  <text class="mono o3 dim2" x="31" y="194"  font-size="21">Production systems since 2022</text>
 
   <!-- location -->
   <text class="mono o4 dim2" x="6" y="227"  font-size="21"><tspan fill="#01FF5E">▸</tspan> Slovakia | EU | Remote</text>
